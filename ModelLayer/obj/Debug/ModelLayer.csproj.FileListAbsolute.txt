@@ -33,3 +33,4 @@ D:\Proyectos\Financiera\ecweb\ModelLayer\bin\Debug\ModelLayer.pdb
 D:\Proyectos\Financiera\ecweb\ModelLayer\obj\Debug\ModelLayer.csproj.CoreCompileInputs.cache
 D:\Proyectos\Financiera\ecweb\ModelLayer\obj\Debug\ModelLayer.dll
 D:\Proyectos\Financiera\ecweb\ModelLayer\obj\Debug\ModelLayer.pdb
+D:\Proyectos\Financiera\ecweb\ModelLayer\obj\Debug\ModelLayer.csproj.AssemblyReference.cache
