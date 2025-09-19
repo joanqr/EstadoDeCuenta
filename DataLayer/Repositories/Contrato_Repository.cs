@@ -65,10 +65,10 @@ namespace DataLayer.Repositories
             List<Contrato> contrato = new List<Contrato>();
             using (var cmd = _unitOfWork.CreateCommand())
             {
-                cmd.CommandText = "Select u.idUsuario,ISNULL(iContrato,0) AS iContrato,e.cNombre nombCompania, CONVERT(varchar(20), c.iGrupo) + RIGHT('00000000' + CONVERT(varchar(20), c.iCliente),3 )   grupocliente " +
-                                    "from Usuarios u inner join Contratos c on u.idUsuario = c.idUsuario  " +
-                                        "inner join Empresas e on e.iEmpresa = c.iCompania " +
-                                    "where u.idUsuario=" + idUsuario + "";
+                cmd.CommandText = "Select u.idUsuario,ISNULL(iContrato,0) AS iContrato,e.cNombre nombCompania,c.iCompania, CONVERT(varchar(20), c.iGrupo) + RIGHT('00000000' + CONVERT(varchar(20), c.iCliente),3 )   grupocliente " +
+                                   "from Usuarios u inner join Contratos c on u.idUsuario = c.idUsuario  " +
+                                       "inner join Empresas e on e.iEmpresa = c.iCompania " +
+                                   "where u.idUsuario=" + idUsuario + "";
                 cmd.CommandType = CommandType.Text;
 
                 var table = new List<Dictionary<string, object>>();
@@ -81,7 +81,8 @@ namespace DataLayer.Repositories
                             idUsuario = (int)reader["idUsuario"],
                             iContrato = (int)reader["iContrato"],
                             grupocliente = reader["grupocliente"].ToString(),
-                            nombCompania = string.IsNullOrEmpty((string)reader["nombCompania"]) ? "" : (string)reader["nombCompania"]
+                            nombCompania = string.IsNullOrEmpty((string)reader["nombCompania"]) ? "" : (string)reader["nombCompania"],
+                            iCompania = Convert.ToInt32(reader["iCompania"])
                         });
                     }
                 }

@@ -281,7 +281,7 @@ namespace BBCuentas.Controllers
                 var list = contrato.ObtieneContratosPorCliente(idCliente);
                 foreach (var item in list)
                 {
-                    contractsList.Add(new Contract(item.nombCompania, item.iContrato, item.grupocliente));
+                    contractsList.Add(new Contract(item.nombCompania, item.iContrato, item.grupocliente, item.iCompania));
                 }
                 return contractsList;
             }

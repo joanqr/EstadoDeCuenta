@@ -30,7 +30,6 @@ C:\_Dev_Dzn\ecweb\ModelLayer\obj\Debug\ModelLayer.dll
 C:\_Dev_Dzn\ecweb\ModelLayer\obj\Debug\ModelLayer.pdb
 D:\Proyectos\Financiera\ecweb\ModelLayer\bin\Debug\ModelLayer.dll
 D:\Proyectos\Financiera\ecweb\ModelLayer\bin\Debug\ModelLayer.pdb
-D:\Proyectos\Financiera\ecweb\ModelLayer\obj\Debug\ModelLayer.csproj.AssemblyReference.cache
 D:\Proyectos\Financiera\ecweb\ModelLayer\obj\Debug\ModelLayer.csproj.CoreCompileInputs.cache
 D:\Proyectos\Financiera\ecweb\ModelLayer\obj\Debug\ModelLayer.dll
 D:\Proyectos\Financiera\ecweb\ModelLayer\obj\Debug\ModelLayer.pdb

@@ -1,8 +1,7 @@
 ﻿@using BBCuentas.Models
 @{
     Layout = "~/Views/Shared/_Home.cshtml";
-
-
+    var empresaId = ViewBag.EmpresaId != null ? (int)ViewBag.EmpresaId : 0;
 }
 
 <!------ Include the above in your HEAD tag ---------->
@@ -61,6 +60,24 @@
             </div>
         </div>
     </div>
+    @if (empresaId == 1)
+    {
+        <div class="card mt-3">
+            <div class="card-body">
+                <div class="input-group col-12">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="selMes">Mes</label>
+                    </div>
+                    <select class="custom-select" id="selMes">
+                        <option value="">-- Seleccionar --</option>
+                    </select>
+                    <div class="input-group-append">
+                        <button type="button" class="btn btn-outline-success" id="btnConsultarMes">Consultar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
     @*<div style="padding:50px 0px 0px 30px;" class="card">
         <div class="card-body">*@
     <div class="row " id="card-container" style="padding:50px 0px 0px 0px;">
@@ -220,7 +237,7 @@
 <script type="text/javascript">
     var files = [{ "year": "2018", "month": "01", "file": "ruta" }];
     var remoteJSONContent = null;
-
+    var companyId = @empresaId;
 
     function EnviaPDF(idP) {
         $.ajax({
@@ -307,6 +324,30 @@
     });
 
     $(document).ready(function () {
+        if ($('#btnConsultarMes').length) {
+            clearMonthFilter();
+
+            var $monthSelector = $('#selMes');
+            var $consultButton = $('#btnConsultarMes');
+
+            $consultButton.prop('disabled', true);
+
+            $monthSelector.on('change', function () {
+                $consultButton.prop('disabled', !$(this).val());
+            });
+
+            $('#btnConsultarMes').on('click', function () {
+                var selectedPeriod = $('#selMes').val();
+                if (!selectedPeriod) {
+                    $(".alert").text("Seleccione un mes para consultar.");
+                    $('#MensajeError').modal('show');
+                    return;
+                }
+
+                $("#largeModal").data("id", selectedPeriod);
+                ObtienePDFHTML(selectedPeriod);
+            });
+        }
 
         $("#selContrato").change(function () {
             $("#card-container").empty();
@@ -336,6 +377,9 @@
 
     });
     function GetPdfFileLists(value) {
+        if (companyId === 1) {
+            clearMonthFilter();
+        }
         $.ajax({
             url: '@Url.Action("GetPdfFileList", "AccountStatement")',
             type: 'POST',
@@ -345,11 +389,17 @@
             success: function (result) {
                 remoteJSONContent = result;
                 var cards = $();
-                $.each(remoteJSONContent.YearMonth, function (i, o) {
+                $.each(result.YearMonth, function (i, o) {
                     cards = cards.add(createCard(o));
-                })
+                });
 
-                $('#card-container').append(cards);
+                if (cards.length > 0) {
+                    $('#card-container').append(cards);
+                }
+
+                if (companyId === 1) {
+                    populateMonthFilter(result.YearMonth);
+                }
             },
             error: function () {
                 remoteJSONContent = null;
@@ -404,6 +454,73 @@
     function GetMonthName(month) {
         var months = ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"];
         return months[month - 1];
+    }
+    function clearMonthFilter() {
+        var $selector = $('#selMes');
+        if ($selector.length === 0) {
+            return;
+        }
+
+        $selector.empty();
+        $selector.append($('<option>', { value: '', text: '-- Seleccionar --' }));
+
+        var $button = $('#btnConsultarMes');
+        if ($button.length) {
+            $button.prop('disabled', true);
+        }
+    }
+
+    function populateMonthFilter(yearMonthData) {
+        var $selector = $('#selMes');
+        if ($selector.length === 0) {
+            return;
+        }
+
+        clearMonthFilter();
+
+        if (!Array.isArray(yearMonthData)) {
+            return;
+        }
+
+        var options = [];
+
+        $.each(yearMonthData, function (_, yearGroup) {
+            if (!yearGroup || !Array.isArray(yearGroup.Months)) {
+                return;
+            }
+
+            $.each(yearGroup.Months, function (_, monthValue) {
+                if (!monthValue) {
+                    return;
+                }
+
+                var monthNumber = parseInt(monthValue, 10);
+                if (isNaN(monthNumber)) {
+                    return;
+                }
+
+                options.push({
+                    value: yearGroup.Year + '-' + monthValue,
+                    text: GetMonthName(monthNumber) + ' ' + yearGroup.Year,
+                    year: parseInt(yearGroup.Year, 10),
+                    month: monthNumber
+                });
+            });
+        });
+
+        options.sort(function (a, b) {
+            if (a.year === b.year) {
+                return b.month - a.month;
+            }
+
+            return b.year - a.year;
+        });
+
+        $.each(options, function (_, option) {
+            $selector.append($('<option>', { value: option.value, text: option.text }));
+        });
+
+        $selector.trigger('change');
     }
 
     $("#GpCte").focusout(function () {
@@ -519,7 +636,7 @@
 
     });
 
-   
+
     $("#btnEnviaCorreo").on("click", function () {
         var id = $("#largeModal").data("id");
         var ruta = EnviaPDF(id);

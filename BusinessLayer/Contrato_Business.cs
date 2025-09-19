@@ -38,6 +38,7 @@ namespace BusinessLayer
                     iContrato = s.iContrato,
                     grupocliente = s.grupocliente,
                     nombCompania = string.IsNullOrEmpty(s.nombCompania) ? "" : s.nombCompania,
+                    iCompania = s.iCompania
                 }).ToList();
                 return response;
             }
