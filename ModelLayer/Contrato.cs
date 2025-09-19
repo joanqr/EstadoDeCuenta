@@ -13,5 +13,7 @@ namespace ModelLayer
 
         public string grupocliente { get; set; }
         public string nombCompania { get; set; }
+        public int iCompania { get; set; }
+
     }
 }

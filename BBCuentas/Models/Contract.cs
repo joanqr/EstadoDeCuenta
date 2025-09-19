@@ -18,12 +18,24 @@ namespace BBCuentas.Models
             ContractNumber = 0;
             GrupoCliente = string.Empty;
         }
-        public Contract( string empresa, int contract, string grupocliente)
+        public Contract(string empresa, int contract, string grupocliente, int companyId = 0)
         {
             Empresa = empresa;
             ContractNumber = contract;
             GrupoCliente = grupocliente;
-        }
-        
+            CompanyId = companyId;
+
+            if (CompanyId == 0 && !string.IsNullOrEmpty(Empresa))
+            {
+                if (Empresa.Equals("Fina", StringComparison.OrdinalIgnoreCase))
+                {
+                    CompanyId = 1;
+                }
+                else if (Empresa.Equals("Cona", StringComparison.OrdinalIgnoreCase))
+                {
+                    CompanyId = 2;
+                }
+            }
+        }        
     }
 }

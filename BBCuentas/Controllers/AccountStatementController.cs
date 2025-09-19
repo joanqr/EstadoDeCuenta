@@ -32,21 +32,56 @@ namespace BBCuentas.Controllers
         public ActionResult AccountStatement()
         {
             Session["contractsList"] = null;
-            contractsList.Clear();
+
             idCliente = 0;
             idCliente = Convert.ToInt32(Request.Cookies["Usuario"].Value.ToString());
-            Session["contractsList"] = GetContract(idCliente);
+            var userContracts = GetContract(idCliente);
 
-            if (contractsList.Count > 0)
+            if (userContracts != null && userContracts.Count > 0)
+                if (contractsList.Count > 0)
             {
-                return View();
+                    ViewBag.EmpresaId = DetermineCompanyId(userContracts);
+                    return View();
             }
             else
             {
                 ViewData["Message"] = "Lo sentimos , por momento no cuenta con algun contrato definido";
                 return RedirectToAction("Index", "Home", new { parametro = ViewData["Message"] });
             }
+        }
+        private static int DetermineCompanyId(IEnumerable<Contract> contracts)
+        {
+            if (contracts == null)
+            {
+                return 0;
+            }
 
+            var companyIds = contracts.Select(c => c.CompanyId)
+                                      .Where(id => id > 0)
+                                      .Distinct()
+                                      .ToList();
+
+            if (companyIds.Count == 1)
+            {
+                return companyIds[0];
+            }
+
+            if (companyIds.Count > 1)
+            {
+                return companyIds.First();
+            }
+
+            if (contracts.Any(c => string.Equals(c.Empresa, "Fina", StringComparison.OrdinalIgnoreCase)))
+            {
+                return 1;
+            }
+
+            if (contracts.Any(c => string.Equals(c.Empresa, "Cona", StringComparison.OrdinalIgnoreCase)))
+            {
+                return 2;
+            }
+
+            return 0;
         }
         [HttpPost]
         public ActionResult GetPdfFileList(string contrato)
@@ -307,16 +342,18 @@ namespace BBCuentas.Controllers
         {
             try
             {
+                contractsList.Clear();
                 var list = contrato.ObtieneContratosPorCliente(idCliente);
                 foreach (var item in list)
                 {
-                    contractsList.Add(new Contract(item.nombCompania, item.iContrato, item.grupocliente));
+                    contractsList.Add(new Contract(item.nombCompania, item.iContrato, item.grupocliente, item.iCompania));
                 }
                 return contractsList;
             }
             catch (Exception e)
             {
-                return null;
+                contractsList.Clear();
+                return new List<Contract>();
             }
 
         }
@@ -460,7 +497,7 @@ namespace BBCuentas.Controllers
                         succes = usuarioValid.InsertContract(usuario);
                         empresa = contrato.ObtieneEmpresPorId(usuario.TipoFina);
 
-                        contract = new Contract(empresa, Convert.ToInt32(usuario.iContrato), Convert.ToString(usuario.gpoCte1) + Convert.ToString(usuario.gpoCte2));
+                        contract = new Contract(empresa, Convert.ToInt32(usuario.iContrato), Convert.ToString(usuario.gpoCte1) + Convert.ToString(usuario.gpoCte2), usuario.TipoFina);
                         contractsList.Add(contract);
 
                         succes = true;
