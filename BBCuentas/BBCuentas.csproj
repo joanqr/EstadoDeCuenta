@@ -149,6 +149,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <None Include=".devcontainer\devcontainer.json" />
     <Content Include="Connected Services\AppRemota\BBCuentas.AppRemota.Pub_ConaCancPolNTUResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
