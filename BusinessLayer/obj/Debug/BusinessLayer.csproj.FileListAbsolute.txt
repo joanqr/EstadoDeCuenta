@@ -1,0 +1,66 @@
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BusinessLayer\bin\Debug\DataLayer.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BusinessLayer\bin\Debug\ModelLayer.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BusinessLayer\bin\Debug\DataLayer.pdb
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BusinessLayer\bin\Debug\ModelLayer.pdb
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BusinessLayer\obj\Debug\BusinessLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BusinessLayer\bin\Debug\BusinessLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BusinessLayer\bin\Debug\BusinessLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BusinessLayer\bin\Debug\DataLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BusinessLayer\bin\Debug\ModelLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BusinessLayer\bin\Debug\DataLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BusinessLayer\bin\Debug\ModelLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BusinessLayer\obj\Debug\BusinessLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BusinessLayer\obj\Debug\BusinessLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BusinessLayer\bin\Debug\BusinessLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BusinessLayer\bin\Debug\BusinessLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BusinessLayer\bin\Debug\DataLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BusinessLayer\bin\Debug\ModelLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BusinessLayer\bin\Debug\DataLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BusinessLayer\bin\Debug\ModelLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BusinessLayer\obj\Debug\BusinessLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\_Dev_Aldo\ecweb\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\_Dev_Aldo\ecweb\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\_Dev_Aldo\ecweb\BusinessLayer\bin\Debug\DataLayer.dll
+C:\_Dev_Aldo\ecweb\BusinessLayer\bin\Debug\ModelLayer.dll
+C:\_Dev_Aldo\ecweb\BusinessLayer\bin\Debug\DataLayer.pdb
+C:\_Dev_Aldo\ecweb\BusinessLayer\bin\Debug\ModelLayer.pdb
+C:\_Dev_Aldo\ecweb\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+C:\_Dev_Aldo\ecweb\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\_Dev_Aldo\ecweb\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\_Dev_Aldo\ecweb\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\_Dev_Aldo\ecweb\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\_Dev_Dzn\ecweb\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\_Dev_Dzn\ecweb\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\_Dev_Dzn\ecweb\BusinessLayer\bin\Debug\DataLayer.dll
+C:\_Dev_Dzn\ecweb\BusinessLayer\bin\Debug\ModelLayer.dll
+C:\_Dev_Dzn\ecweb\BusinessLayer\bin\Debug\DataLayer.pdb
+C:\_Dev_Dzn\ecweb\BusinessLayer\bin\Debug\ModelLayer.pdb
+C:\_Dev_Dzn\ecweb\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+C:\_Dev_Dzn\ecweb\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\_Dev_Dzn\ecweb\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\_Dev_Dzn\ecweb\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\_Dev_Dzn\ecweb\BusinessLayer\obj\Debug\BusinessLayer.pdb
+D:\Proyectos\Financiera\ecweb\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\Proyectos\Financiera\ecweb\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\Proyectos\Financiera\ecweb\BusinessLayer\bin\Debug\DataLayer.dll
+D:\Proyectos\Financiera\ecweb\BusinessLayer\bin\Debug\ModelLayer.dll
+D:\Proyectos\Financiera\ecweb\BusinessLayer\bin\Debug\DataLayer.pdb
+D:\Proyectos\Financiera\ecweb\BusinessLayer\bin\Debug\ModelLayer.pdb
+D:\Proyectos\Financiera\ecweb\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+D:\Proyectos\Financiera\ecweb\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Proyectos\Financiera\ecweb\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+D:\Proyectos\Financiera\ecweb\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\Proyectos\Financiera\ecweb\BusinessLayer\obj\Debug\BusinessLayer.pdb

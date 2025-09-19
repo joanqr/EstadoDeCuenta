@@ -1,0 +1,51 @@
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\bin\Release\DataLayer.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\bin\Release\DataLayer.pdb
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\bin\Release\ModelLayer.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\bin\Release\Xamarin.Forms.Core.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\bin\Release\Xamarin.Forms.Platform.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\bin\Release\Xamarin.Forms.Xaml.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\bin\Release\ModelLayer.pdb
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\bin\Release\Xamarin.Forms.Core.pdb
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\bin\Release\Xamarin.Forms.Core.xml
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\bin\Release\Xamarin.Forms.Platform.pdb
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\bin\Release\Xamarin.Forms.Xaml.pdb
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\bin\Release\Xamarin.Forms.Xaml.xml
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\obj\Release\DataLayer.csprojAssemblyReference.cache
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\obj\Release\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\obj\Release\DataLayer.csproj.CopyComplete
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\obj\Release\DataLayer.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\obj\Release\DataLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\bin\Release\DataLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\bin\Release\DataLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\bin\Release\ModelLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\bin\Release\Xamarin.Forms.Core.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\bin\Release\Xamarin.Forms.Platform.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\bin\Release\Xamarin.Forms.Xaml.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\bin\Release\ModelLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\bin\Release\Xamarin.Forms.Core.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\bin\Release\Xamarin.Forms.Core.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\bin\Release\Xamarin.Forms.Platform.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\bin\Release\Xamarin.Forms.Xaml.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\bin\Release\Xamarin.Forms.Xaml.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\obj\Release\DataLayer.csprojAssemblyReference.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\obj\Release\DataLayer.csproj.CoreCompileInputs.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\obj\Release\DataLayer.csproj.CopyComplete
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\obj\Release\DataLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\obj\Release\DataLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\bin\Release\DataLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\bin\Release\DataLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\bin\Release\ModelLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\bin\Release\Xamarin.Forms.Core.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\bin\Release\Xamarin.Forms.Platform.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\bin\Release\Xamarin.Forms.Xaml.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\bin\Release\ModelLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\bin\Release\Xamarin.Forms.Core.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\bin\Release\Xamarin.Forms.Core.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\bin\Release\Xamarin.Forms.Platform.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\bin\Release\Xamarin.Forms.Xaml.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\bin\Release\Xamarin.Forms.Xaml.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\obj\Release\DataLayer.csprojAssemblyReference.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\obj\Release\DataLayer.csproj.CoreCompileInputs.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\obj\Release\DataLayer.csproj.CopyComplete
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\obj\Release\DataLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\obj\Release\DataLayer.pdb

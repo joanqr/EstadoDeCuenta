@@ -1,0 +1,325 @@
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\x64\libsass.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\BBCuentas.dll.config
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\BBCuentas.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\BBCuentas.pdb
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\csc.exe
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\csc.exe.config
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\csc.rsp
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\csi.exe
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\csi.exe.config
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\csi.rsp
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\System.AppContext.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\System.Console.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\System.IO.Compression.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\System.Net.Http.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\System.Net.Sockets.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\System.ValueTuple.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\System.Xml.XPath.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\vbc.exe
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\vbc.exe.config
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\vbc.rsp
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\VBCSCompiler.exe
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\AdvancedStringBuilder.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\Antlr3.Runtime.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\BundleTransformer.Core.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\BundleTransformer.SassAndScss.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\BusinessLayer.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\LibSassHost.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\ModelLayer.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\Newtonsoft.Json.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\System.Buffers.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\System.Web.Helpers.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\System.Web.Mvc.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\System.Web.Optimization.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\System.Web.Razor.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\System.Web.WebPages.Deployment.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\System.Web.WebPages.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\System.Web.WebPages.Razor.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\WebGrease.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\DataLayer.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\BusinessLayer.pdb
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\ModelLayer.pdb
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\AdvancedStringBuilder.xml
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\Antlr3.Runtime.pdb
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\BundleTransformer.Core.xml
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\BundleTransformer.SassAndScss.xml
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\LibSassHost.xml
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\Newtonsoft.Json.xml
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\System.Buffers.xml
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\System.Web.Helpers.xml
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\System.Web.Mvc.xml
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\System.Web.Optimization.xml
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\System.Web.Razor.xml
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\System.Web.WebPages.xml
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\System.Web.WebPages.Deployment.xml
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\System.Web.WebPages.Razor.xml
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\DataLayer.pdb
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\ru-ru\BundleTransformer.Core.resources.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\es\System.Web.Helpers.resources.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\es\System.Web.Mvc.resources.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\es\System.Web.Razor.resources.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\es\System.Web.WebPages.resources.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\obj\Release\BBCuentas.csprojAssemblyReference.cache
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\obj\Release\BBCuentas.csproj.CoreCompileInputs.cache
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\obj\Release\BBCuentas.csproj.CopyComplete
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\obj\Release\BBCuentas.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BBCuentas\obj\Release\BBCuentas.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\x64\libsass.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\BBCuentas.dll.config
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\BBCuentas.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\BBCuentas.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\csc.exe
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\csc.exe.config
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\csc.rsp
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\csi.exe
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\csi.exe.config
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\csi.rsp
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\System.AppContext.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\System.Collections.Immutable.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\System.Console.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\System.Globalization.Calendars.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\System.IO.Compression.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\System.IO.FileSystem.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\System.Net.Http.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\System.Net.Sockets.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\System.Reflection.Metadata.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\System.ValueTuple.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\System.Xml.XPath.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\vbc.exe
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\vbc.exe.config
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\vbc.rsp
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\VBCSCompiler.exe
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\roslyn\VBCSCompiler.exe.config
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\AdvancedStringBuilder.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\Antlr3.Runtime.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\BundleTransformer.Core.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\BundleTransformer.SassAndScss.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\BusinessLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\LibSassHost.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\Microsoft.Web.Infrastructure.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\ModelLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\Newtonsoft.Json.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\r3Take.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\System.Buffers.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\System.Net.Http.Formatting.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\System.Web.Helpers.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\System.Web.Http.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\System.Web.Http.WebHost.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\System.Web.Mvc.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\System.Web.Optimization.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\System.Web.Razor.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\System.Web.WebPages.Deployment.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\System.Web.WebPages.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\System.Web.WebPages.Razor.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\WebGrease.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\DataLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\BusinessLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\ModelLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\r3Take.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\AdvancedStringBuilder.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\Antlr3.Runtime.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\BundleTransformer.Core.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\BundleTransformer.SassAndScss.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\LibSassHost.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\Newtonsoft.Json.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\System.Buffers.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\System.Net.Http.Formatting.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\System.Web.Helpers.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\System.Web.Http.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\System.Web.Http.WebHost.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\System.Web.Mvc.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\System.Web.Optimization.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\System.Web.Razor.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\System.Web.WebPages.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\System.Web.WebPages.Deployment.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\System.Web.WebPages.Razor.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\DataLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\ru-ru\BundleTransformer.Core.resources.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\es\System.Web.Helpers.resources.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\es\System.Web.Mvc.resources.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\es\System.Web.Razor.resources.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\es\System.Web.WebPages.resources.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\bin\es\System.Web.WebPages.Razor.resources.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\obj\Release\BBCuentas.csprojAssemblyReference.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\obj\Release\BBCuentas.csproj.CoreCompileInputs.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\obj\Release\BBCuentas.csproj.CopyComplete
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\obj\Release\BBCuentas.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BBCuentas\obj\Release\BBCuentas.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\x64\libsass.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\BBCuentas.dll.config
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\BBCuentas.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\BBCuentas.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\csc.exe
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\csc.exe.config
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\csc.rsp
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\csi.exe
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\csi.exe.config
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\csi.rsp
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\System.AppContext.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\System.Collections.Immutable.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\System.Console.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\System.Globalization.Calendars.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\System.IO.Compression.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\System.IO.FileSystem.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\System.Net.Http.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\System.Net.Sockets.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\System.Reflection.Metadata.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\System.ValueTuple.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\System.Xml.XPath.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\vbc.exe
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\vbc.exe.config
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\vbc.rsp
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\VBCSCompiler.exe
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\roslyn\VBCSCompiler.exe.config
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\AdvancedStringBuilder.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\Antlr3.Runtime.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\BundleTransformer.Core.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\BundleTransformer.SassAndScss.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\BusinessLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\LibSassHost.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\Microsoft.Web.Infrastructure.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\ModelLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\Newtonsoft.Json.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\r3Take.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\System.Buffers.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\System.Net.Http.Formatting.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\System.Web.Helpers.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\System.Web.Http.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\System.Web.Http.WebHost.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\System.Web.Mvc.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\System.Web.Optimization.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\System.Web.Razor.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\System.Web.WebPages.Deployment.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\System.Web.WebPages.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\System.Web.WebPages.Razor.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\WebGrease.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\DataLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\BusinessLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\ModelLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\r3Take.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\AdvancedStringBuilder.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\Antlr3.Runtime.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\BundleTransformer.Core.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\BundleTransformer.SassAndScss.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\LibSassHost.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\Newtonsoft.Json.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\System.Buffers.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\System.Net.Http.Formatting.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\System.Web.Helpers.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\System.Web.Http.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\System.Web.Http.WebHost.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\System.Web.Mvc.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\System.Web.Optimization.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\System.Web.Razor.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\System.Web.WebPages.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\System.Web.WebPages.Deployment.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\System.Web.WebPages.Razor.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\DataLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\ru-ru\BundleTransformer.Core.resources.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\es\System.Web.Helpers.resources.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\es\System.Web.Mvc.resources.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\es\System.Web.Razor.resources.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\es\System.Web.WebPages.resources.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\bin\es\System.Web.WebPages.Razor.resources.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\obj\Release\BBCuentas.csprojAssemblyReference.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\obj\Release\BBCuentas.csproj.CoreCompileInputs.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\obj\Release\BBCuentas.csproj.CopyComplete
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\obj\Release\BBCuentas.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BBCuentas\obj\Release\BBCuentas.pdb

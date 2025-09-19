@@ -1,0 +1,36 @@
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\ModelLayer\bin\Debug\ModelLayer.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\ModelLayer\bin\Debug\ModelLayer.pdb
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\ModelLayer\obj\Debug\ModelLayer.csprojAssemblyReference.cache
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\ModelLayer\obj\Debug\ModelLayer.csproj.CoreCompileInputs.cache
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\ModelLayer\obj\Debug\ModelLayer.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\ModelLayer\obj\Debug\ModelLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\ModelLayer\bin\Debug\ModelLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\ModelLayer\bin\Debug\ModelLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\ModelLayer\obj\Debug\ModelLayer.csprojAssemblyReference.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\ModelLayer\obj\Debug\ModelLayer.csproj.CoreCompileInputs.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\ModelLayer\obj\Debug\ModelLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\ModelLayer\obj\Debug\ModelLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\ModelLayer\bin\Debug\ModelLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\ModelLayer\bin\Debug\ModelLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\ModelLayer\obj\Debug\ModelLayer.csprojAssemblyReference.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\ModelLayer\obj\Debug\ModelLayer.csproj.CoreCompileInputs.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\ModelLayer\obj\Debug\ModelLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\ModelLayer\obj\Debug\ModelLayer.pdb
+C:\_Dev_Aldo\ecweb\ModelLayer\bin\Debug\ModelLayer.dll
+C:\_Dev_Aldo\ecweb\ModelLayer\bin\Debug\ModelLayer.pdb
+C:\_Dev_Aldo\ecweb\ModelLayer\obj\Debug\ModelLayer.csprojAssemblyReference.cache
+C:\_Dev_Aldo\ecweb\ModelLayer\obj\Debug\ModelLayer.csproj.CoreCompileInputs.cache
+C:\_Dev_Aldo\ecweb\ModelLayer\obj\Debug\ModelLayer.dll
+C:\_Dev_Aldo\ecweb\ModelLayer\obj\Debug\ModelLayer.pdb
+C:\_Dev_Dzn\ecweb\ModelLayer\bin\Debug\ModelLayer.dll
+C:\_Dev_Dzn\ecweb\ModelLayer\bin\Debug\ModelLayer.pdb
+C:\_Dev_Dzn\ecweb\ModelLayer\obj\Debug\ModelLayer.csprojAssemblyReference.cache
+C:\_Dev_Dzn\ecweb\ModelLayer\obj\Debug\ModelLayer.csproj.CoreCompileInputs.cache
+C:\_Dev_Dzn\ecweb\ModelLayer\obj\Debug\ModelLayer.dll
+C:\_Dev_Dzn\ecweb\ModelLayer\obj\Debug\ModelLayer.pdb
+D:\Proyectos\Financiera\ecweb\ModelLayer\bin\Debug\ModelLayer.dll
+D:\Proyectos\Financiera\ecweb\ModelLayer\bin\Debug\ModelLayer.pdb
+D:\Proyectos\Financiera\ecweb\ModelLayer\obj\Debug\ModelLayer.csproj.AssemblyReference.cache
+D:\Proyectos\Financiera\ecweb\ModelLayer\obj\Debug\ModelLayer.csproj.CoreCompileInputs.cache
+D:\Proyectos\Financiera\ecweb\ModelLayer\obj\Debug\ModelLayer.dll
+D:\Proyectos\Financiera\ecweb\ModelLayer\obj\Debug\ModelLayer.pdb

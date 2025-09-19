@@ -1,0 +1,543 @@
+﻿@using BBCuentas.Models
+@{
+    Layout = "~/Views/Shared/_Home.cshtml";
+
+
+}
+
+<!------ Include the above in your HEAD tag ---------->
+<link href="~/Styles/Contrato.css" rel="stylesheet" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+@*<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>*@
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+<link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+@*<script src="https://cdn.jsdelivr.net/bootstrap.datepicker-fork/1.3.0/js/locales/bootstrap-datepicker.es.js"></script>*@
+
+<div class="row my-tab-header ">
+    <div class="col-md-12 text-center " style="padding:200px 0px 0px 0px;"></div>
+</div>
+<div class="container">
+    <h5 class="card-title">Estados de Cuenta</h5>
+    <div class="card">
+        <div class="card-body">
+            <div class="input-group  col-12">
+
+
+
+                <div class="input-group-prepend">
+                    <label class="input-group-text">Mis Contratos</label>
+                </div>
+                <div class="col-4 pull-left">
+
+                    <select class="custom-select" id="selContrato">
+                        // Llenar las opciones del select
+                        @{
+                            List<Contract> list = new List<Contract>();
+                            if (Session["contractsList"] != null)
+                            {
+                                list = (List<Contract>)Session["contractsList"];
+                                // do what you want
+
+                                foreach (var contrac in list)
+                                {
+
+
+                                    if (@contrac.Empresa == "Fina")
+                                    {
+                                        <option value="@contrac.ContractNumber"> FI -  @contrac.GrupoCliente / @contrac.ContractNumber</option>
+                                    }
+
+                                    if (@contrac.Empresa == "Cona")
+                                    {
+                                        <option value="@contrac.ContractNumber"> AF - @contrac.GrupoCliente / @contrac.ContractNumber</option>
+                                    }
+                                }
+                            }
+                        }
+                    </select>
+                </div>
+                <div class="col-6 pull-left">
+                    <input type="button" value="Agregar Contrato" data-toggle="modal" data-target="#myModalContrato" class="btn btn-outline-success  " />
+                </div>
+            </div>
+        </div>
+    </div>
+    @*<div style="padding:50px 0px 0px 30px;" class="card">
+        <div class="card-body">*@
+    <div class="row " id="card-container" style="padding:50px 0px 0px 0px;">
+    </div>
+    <div class="modal fade" id="myModalContrato">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <img src="~/Content/Images/logo_grupo.png" class="w-75" alt="Logo" /><br />
+                    <button type="button" class="close" data-dismiss="modal"><span class="text-white">&times;</span></button>
+                </div>
+                <form action="" class="needs-validation" id="example" name="registration">
+
+                    <div class="modal-body">
+                        <p>Agregar Contrato</p>
+                        <p class="font-weight-bold" id="EtiquetaPantallaTipoFinanciamiento"></p>
+                        <div class="row ">
+                            <div class="col-md-12">
+                                <div class="form-group row">
+                                    <div class="col-md-4 text-right">
+                                        @*<label for="pwd">Tipo:</label>*@
+                                    </div>
+                                    <div class="col-md-8">
+                                        @*<select name="thelist" id="TipoFina">
+                                                <option value="default">--Seleccione--</option>
+                                                <option value="2">Autofinanciamiento</option>
+                                                <option value="1">Financiamiento</option>
+                                            </select>*@
+                                    </div>
+
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-md-4 text-right">
+                                        <label for="pwd">Grupo Cliente:</label>
+                                    </div>
+                                    <div class="col-md-4 ">
+                                        <input type="text" class="form-control" id="GpCte" name="GpCte" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+                                    <div class="col-md-4 ">
+                                        <input type="text" class="form-control" id="GpCte2" name="GpCte2" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-md-4 text-right ">
+                                        <label for="pwd"># Contrato:</label>
+                                    </div>
+                                    <div class="col-md-8 ">
+                                        <input type="text" class="form-control" id="idContrato" name="idContrato" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-md-4 text-right">
+                                        <label for="pwd">Código Postal:</label>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <input type="text" class="form-control" id="idCP" name="idCP" required>
+                                        <div class="valid-feedback">Valid.</div>
+                                        <div class="invalid-feedback">Please fill out this field.</div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-md-4 text-right">
+                                        <label id="Fecha1" for="pwd">Fecha Nacim.</label>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <input id="datepicker" width="276" />
+                                        <script>
+
+                                            //$.fn.datepicker.defaults.language = 'es';
+
+                                            $('#datepicker').datepicker({
+                                                uiLibrary: 'bootstrap4'
+                                            });
+
+
+
+                                        </script>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" id="btnAgregar" class="btn btn-success" data-dismiss="modal">Agregar</button>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="MensajeError">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <p class="alert alert-danger" role="alert"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="Change" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="MensajeOK">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <p class="alert alert-success" role="alert"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="Change" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- large modal -->
+<div class="modal fade" id="largeModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg " style="max-width: 1000px; max-height: 1000px;">
+        <div class="modal-content" style="height: 1050px;">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Estado de Cuenta</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <h3>PDF</h3>
+                <div class="container" style="padding:5px 5px;height: 100%">
+                    @*<h1>Estado de Cuenta</h1>*@
+                    <iframe style=" width : 100%; height:100%" type="application/pdf" class="report-output"></iframe>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="col-md-3">
+                    <button type="button" id="btnEnviaCorreo" class="btn btn-primary" data-dismiss="modal">Enviar por correo</button>
+                </div>
+                <div class="col-md-2">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                </div>
+                @*<a href="pdfobject_sample.pdf" class="btn btn-primary" download target="_blank">
+                        Descargar
+                    </a>*@
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var files = [{ "year": "2018", "month": "01", "file": "ruta" }];
+    var remoteJSONContent = null;
+
+
+    function EnviaPDF(idP) {
+        $.ajax({
+            type: "POST",
+            url: '@Url.Action("GetPdf", "AccountStatement")',
+            data: JSON.stringify({ id: idP }),
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (result) {
+                if (result.resp) {
+                    $(".alert").text('Se ha enviado el archivo pdf con exito');
+                    $('#MensajeOK').modal('show');
+
+                } else {
+                    $(".alert").text('El envio de correo ha fallado, favor de verificar');
+                    $('#MensajeError').modal('show');
+                }
+            },
+            failure: function (result) {
+
+                return "";
+
+            }
+        });
+    }
+    function ObtienePDFHTML(idP) {
+        $.ajax({
+            type: "POST",
+            url: '@Url.Action("GetPdfHtml", "AccountStatement")',
+            data: JSON.stringify({ id: idP }),
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: OnSuccess,
+            failure: function (response) {
+                $(".alert").text(response.d);
+                $('#MensajeError').modal('show');
+            }
+        });
+    }
+    function OnSuccess(response) {
+        $("#Pdf").empty()
+        const contentType = 'application/pdf';
+        const blob = b64toBlob(response, contentType);
+        const blobUrl = URL.createObjectURL(blob);
+        $('.report-output').attr('src', blobUrl);
+
+        $(".alert").text(response);
+        $('#largeModal').modal('show');
+    }
+
+    function b64toBlob(b64Data, contentType) {
+        const sliceSize = 512;
+          const byteCharacters = atob(b64Data);
+          const byteArrays = [];
+
+          for (let offset = 0; offset < byteCharacters.length; offset += sliceSize) {
+            const slice = byteCharacters.slice(offset, offset + sliceSize);
+
+                const byteNumbers = new Array(slice.length);
+                for (let i = 0; i < slice.length; i++) {
+                  byteNumbers[i] = slice.charCodeAt(i);
+                }
+            const byteArray = new Uint8Array(byteNumbers);
+            byteArrays.push(byteArray);
+          }
+      const blob = new Blob(byteArrays, {type: contentType});
+        return blob;
+    }
+
+    $(document).on('click', '.btnShowModal', function (e) {
+        var id = $(this).attr('id');
+        $("#largeModal").data("id", id);
+        ObtienePDFHTML(id)
+    });
+
+    $(document).ready(function () {
+
+        $("#selContrato").change(function () {
+            $("#card-container").empty();
+            GetPdfFileLists($("#selContrato").val());
+        });
+
+        $('select selContrato:first-child').attr("selected", "selected"); 
+        GetPdfFileLists($("#selContrato").val());
+
+        //EtiquetaPantallaTipoFinanciamiento
+        $.ajax({
+            url: '@Url.Action("RecuperaEtiquetaPantallaTipoFinanciamiento", "AccountStatement")',
+            type: 'POST',
+            data: JSON.stringify({}),
+            contentType: "application/json;",
+            dataType: "json",
+            success: function (result) {
+                $("#EtiquetaPantallaTipoFinanciamiento").text(result.mensaje);
+            },
+            error: function () {
+                remoteJSONContent = null;
+                $(".alert").text("Error al seleccionar contrato");
+                $('#MensajeError').modal('show');
+            }
+        });
+
+
+    });
+    function GetPdfFileLists(value) {
+        $.ajax({
+            url: '@Url.Action("GetPdfFileList", "AccountStatement")',
+            type: 'POST',
+            data: JSON.stringify({ contrato: value }),
+            contentType: "application/json;",
+            dataType: "json",
+            success: function (result) {
+                remoteJSONContent = result;
+                var cards = $();
+                $.each(remoteJSONContent.YearMonth, function (i, o) {
+                    cards = cards.add(createCard(o));
+                })
+
+                $('#card-container').append(cards);
+            },
+            error: function () {
+                remoteJSONContent = null;
+                $(".alert").text("Error al seleccionar contrato");
+                $('#MensajeError').modal('show');
+            }
+        });
+    }
+
+
+    function createCard(cardData) {
+
+        var formatHtmlCard = ['<div class="col-lg-4">',
+            '<div class="our-team-main">',
+            '<div class="team-front">',
+            '<img src="http://placehold.it/110x110/336699/fff?text=', cardData.Year, '" class="img - fluid" />',
+            '<h3>Contratos</h3>',
+            '<p>', "Estado de Cuenta", '</p > ',
+            '</div>',
+            '<div class="team-back">',
+            '<div class="container">',
+            '<div class="row months">']
+
+        var months = []
+        $.each(cardData.Months, function (i, o) {
+
+            months.push(createMonths(cardData.Year, o));
+
+        });
+        formatHtmlCard = formatHtmlCard.concat(months);
+        formatHtmlCard.push('</div>',
+            '</div>',
+            '</div>',
+            '</div>',
+            '</div>');
+
+        console.log(formatHtmlCard);
+        return $(formatHtmlCard.join(''));
+    }
+    function createMonths(year, month) {
+
+        var formatHtmlCardMonth = ['<div class="col-sm">',
+            '<a href="#" id="',
+            year,
+            '-',
+            month,
+            '" class="special btnShowModal">', GetMonthName(parseInt(month)), '</a>',
+            '</div>'];
+        return formatHtmlCardMonth.join('');
+
+    }
+    function GetMonthName(month) {
+        var months = ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"];
+        return months[month - 1];
+    }
+
+    $("#GpCte").focusout(function () {
+        if ($("#GpCte").val().length > 0) {
+            $("#idContrato").val("");
+        }
+    });
+    $("#GpCte2").focusout(function () {
+        if ($("#GpCte2").val().length > 0) {
+            $("#idContrato").val("");
+        }
+    });
+
+    $("#idContrato").focusout(function () {
+        if ($("#idContrato").val() != "") {
+        $.ajax({
+                contentType: "application/json; charset=utf-8",
+                type: "POST",
+                url: "@Url.Action("ValidaSiExisteContratoPrevio", "AccountStatement")",
+            data: JSON.stringify({ contrato: $("#idContrato").val()  }),
+            success: function (data) {
+                if (!data.result) {
+                        $(".alert").text(data.mensaje);
+                        $('#MensajeError').modal('show');
+                    }
+                }
+            });
+        }
+    });
+
+    $("#btnAgregar").click(function () {
+        var fecha = $('#datepicker').val();
+        var fechaToken = fecha.split("/");
+        var FechaFinalFormateada = fechaToken[1] + "/" + fechaToken[0] + "/" + fechaToken[2];
+
+        if ($('#GpCte').val() == "" && $('#GpCte2').val() == "" && $('#idContrato').val() == "") {
+            $(".alert").text("Para el registro del contrato se debe agregar al menos un Grupo - Cliente o un número de Contrato");
+            $('#MensajeError').modal('show');
+            return false;
+        }
+
+       
+
+        var Usuario = JSON.stringify({
+            TipoFina: "",
+            gpoCte1: $('#GpCte').val(),
+            gpoCte2: $('#GpCte2').val(),
+            iContrato: $('#idContrato').val(),
+            CP: $('#idCP').val(),
+            DateCte: FechaFinalFormateada,
+            GpoCteString: $('#GpCte2').val(),
+        });
+        $.ajax({
+            contentType: "application/json; charset=utf-8",
+            type: "POST",
+            url: "@Url.Action("InsertContract", "AccountStatement")",
+            beforeSend: function () {
+                $('#loading').show();
+            },
+            data: JSON.stringify({ TipoFina: $('#TipoFina').val(), gpoCte1: $('#GpCte').val(), gpoCte2: $('#GpCte2').val(), iContrato: $('#idContrato').val(), CP: $('#idCP').val(), cEMail: $('#cEMail').val(), DateCte: FechaFinalFormateada, }),
+            success: function (data) {
+                $("#example")[0].reset();
+                if (data.result) {
+
+                        $('#selContrato').append($('<option>', {
+                            value: data.contract.ContractNumber,
+                            text: data.contract.ContractNumber
+                        }));
+
+                    $(".alert").text(data.mensaje);
+                    $('#MensajeOK').modal('show');
+                }
+                else {
+                    $(".alert").text(data.mensaje);
+                    $('#MensajeError').modal('show');
+
+                }
+                //$(".alert").text(data.mensaje);
+                //$('#Mensaje').modal('show');
+            }
+        });
+        //var idContrato = $('#idContrato').val();
+        //SetContract(idContrato);
+        //$('#idContrato').val("");
+    });
+    $("#TipoFina").change(function () {
+        if ($(this).val() == 2) {
+            $("#idContrato").prop("disabled", true);
+            $("#idContrato").val('');
+            $("#GpCte").prop("disabled", false);
+            $("#GpCte").val('');
+            $("#GpCte2").prop("disabled", false);
+            $("#GpCte2").val('');
+        }
+        else if ($(this).val() == 1) {
+            $("#GpCte").prop("disabled", true);
+            $("#GpCte").val('');
+            $("#GpCte2").prop("disabled", true);
+            $("#GpCte2").val('');
+            $("#idContrato").prop("disabled", false);
+            $("#idContrato").val('');
+        }
+
+    });
+
+    @*function SetContract(idContrato) {
+        $.ajax({
+            type: "POST",
+            url: '@Url.Action("SetContract", "AccountStatement")',
+            data: JSON.stringify({ idContrato: idContrato }),
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (response) {
+
+                if (response.result) {
+                    $('#selContrato').append($('<option>', {
+                        value: response.contract.ContractNumber,
+                        text: response.contract.ContractNumber
+                    }));
+                }
+                else {
+                    $(".alert").text("El contrato: " + response.idContract + " ya esta dado de alta");
+                    $('#MensajeOK').modal('show');
+
+                }
+            },
+            failure: function (response) {
+                $(".alert").text(response.d);
+                $('#MensajeError').modal('show');
+
+            }
+        });*@
+
+    $("#btnEnviaCorreo").on("click", function () {
+        var id = $("#largeModal").data("id");
+        var ruta = EnviaPDF(id);
+
+    });
+
+    $("#largeModal").on("hidden.bs.modal", function () {
+        $("#largeModal").removeData("id")
+    });
+
+
+</script>

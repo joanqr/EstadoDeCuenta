@@ -1,0 +1,102 @@
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\bin\Debug\ModelLayer.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\bin\Debug\ModelLayer.pdb
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\obj\Debug\DataLayer.csprojAssemblyReference.cache
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\DataLayer\obj\Debug\DataLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\bin\Debug\DataLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\bin\Debug\DataLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\bin\Debug\ModelLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\bin\Debug\Xamarin.Forms.Core.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\bin\Debug\Xamarin.Forms.Platform.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\bin\Debug\Xamarin.Forms.Xaml.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\bin\Debug\ModelLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\bin\Debug\Xamarin.Forms.Core.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\bin\Debug\Xamarin.Forms.Core.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\bin\Debug\Xamarin.Forms.Platform.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\bin\Debug\Xamarin.Forms.Xaml.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\bin\Debug\Xamarin.Forms.Xaml.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\obj\Debug\DataLayer.csprojAssemblyReference.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\obj\Debug\DataLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\DataLayer\obj\Debug\DataLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\bin\Debug\DataLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\bin\Debug\DataLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\bin\Debug\ModelLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\bin\Debug\Xamarin.Forms.Core.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\bin\Debug\Xamarin.Forms.Platform.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\bin\Debug\Xamarin.Forms.Xaml.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\bin\Debug\ModelLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\bin\Debug\Xamarin.Forms.Core.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\bin\Debug\Xamarin.Forms.Core.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\bin\Debug\Xamarin.Forms.Platform.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\bin\Debug\Xamarin.Forms.Xaml.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\bin\Debug\Xamarin.Forms.Xaml.xml
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\obj\Debug\DataLayer.csprojAssemblyReference.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\obj\Debug\DataLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\DataLayer\obj\Debug\DataLayer.pdb
+C:\_Dev_Aldo\ecweb\DataLayer\bin\Debug\DataLayer.dll
+C:\_Dev_Aldo\ecweb\DataLayer\bin\Debug\DataLayer.pdb
+C:\_Dev_Aldo\ecweb\DataLayer\bin\Debug\ModelLayer.dll
+C:\_Dev_Aldo\ecweb\DataLayer\bin\Debug\Xamarin.Forms.Core.dll
+C:\_Dev_Aldo\ecweb\DataLayer\bin\Debug\Xamarin.Forms.Platform.dll
+C:\_Dev_Aldo\ecweb\DataLayer\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\_Dev_Aldo\ecweb\DataLayer\bin\Debug\ModelLayer.pdb
+C:\_Dev_Aldo\ecweb\DataLayer\bin\Debug\Xamarin.Forms.Core.pdb
+C:\_Dev_Aldo\ecweb\DataLayer\bin\Debug\Xamarin.Forms.Core.xml
+C:\_Dev_Aldo\ecweb\DataLayer\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\_Dev_Aldo\ecweb\DataLayer\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\_Dev_Aldo\ecweb\DataLayer\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\_Dev_Aldo\ecweb\DataLayer\obj\Debug\DataLayer.csprojAssemblyReference.cache
+C:\_Dev_Aldo\ecweb\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+C:\_Dev_Aldo\ecweb\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+C:\_Dev_Aldo\ecweb\DataLayer\obj\Debug\DataLayer.dll
+C:\_Dev_Aldo\ecweb\DataLayer\obj\Debug\DataLayer.pdb
+C:\_Dev_Dzn\ecweb\DataLayer\bin\Debug\DataLayer.dll
+C:\_Dev_Dzn\ecweb\DataLayer\bin\Debug\DataLayer.pdb
+C:\_Dev_Dzn\ecweb\DataLayer\bin\Debug\ModelLayer.dll
+C:\_Dev_Dzn\ecweb\DataLayer\bin\Debug\Xamarin.Forms.Core.dll
+C:\_Dev_Dzn\ecweb\DataLayer\bin\Debug\Xamarin.Forms.Platform.dll
+C:\_Dev_Dzn\ecweb\DataLayer\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\_Dev_Dzn\ecweb\DataLayer\bin\Debug\ModelLayer.pdb
+C:\_Dev_Dzn\ecweb\DataLayer\bin\Debug\Xamarin.Forms.Core.pdb
+C:\_Dev_Dzn\ecweb\DataLayer\bin\Debug\Xamarin.Forms.Core.xml
+C:\_Dev_Dzn\ecweb\DataLayer\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\_Dev_Dzn\ecweb\DataLayer\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\_Dev_Dzn\ecweb\DataLayer\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\_Dev_Dzn\ecweb\DataLayer\obj\Debug\DataLayer.csprojAssemblyReference.cache
+C:\_Dev_Dzn\ecweb\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+C:\_Dev_Dzn\ecweb\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+C:\_Dev_Dzn\ecweb\DataLayer\obj\Debug\DataLayer.dll
+C:\_Dev_Dzn\ecweb\DataLayer\obj\Debug\DataLayer.pdb
+D:\Proyectos\Financiera\ecweb\DataLayer\bin\Debug\DataLayer.dll
+D:\Proyectos\Financiera\ecweb\DataLayer\bin\Debug\DataLayer.pdb
+D:\Proyectos\Financiera\ecweb\DataLayer\bin\Debug\ModelLayer.dll
+D:\Proyectos\Financiera\ecweb\DataLayer\bin\Debug\Xamarin.Forms.Core.dll
+D:\Proyectos\Financiera\ecweb\DataLayer\bin\Debug\Xamarin.Forms.Platform.dll
+D:\Proyectos\Financiera\ecweb\DataLayer\bin\Debug\Xamarin.Forms.Xaml.dll
+D:\Proyectos\Financiera\ecweb\DataLayer\bin\Debug\ModelLayer.pdb
+D:\Proyectos\Financiera\ecweb\DataLayer\bin\Debug\Xamarin.Forms.Core.pdb
+D:\Proyectos\Financiera\ecweb\DataLayer\bin\Debug\Xamarin.Forms.Core.xml
+D:\Proyectos\Financiera\ecweb\DataLayer\bin\Debug\Xamarin.Forms.Platform.pdb
+D:\Proyectos\Financiera\ecweb\DataLayer\bin\Debug\Xamarin.Forms.Xaml.pdb
+D:\Proyectos\Financiera\ecweb\DataLayer\bin\Debug\Xamarin.Forms.Xaml.xml
+D:\Proyectos\Financiera\ecweb\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+D:\Proyectos\Financiera\ecweb\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+D:\Proyectos\Financiera\ecweb\DataLayer\obj\Debug\DataLayer.csproj.CopyComplete
+D:\Proyectos\Financiera\ecweb\DataLayer\obj\Debug\DataLayer.dll
+D:\Proyectos\Financiera\ecweb\DataLayer\obj\Debug\DataLayer.pdb

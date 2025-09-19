@@ -1,0 +1,229 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_AtencionClientes.cshtml";
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Admon</title>
+</head>
+
+<body>
+    <div class="row my-tab-header ">
+        <div class="col-md-12 text-center " style="padding:200px 0px 0px 0px;"></div>
+    </div>
+
+    <div class="container">
+        <h5 class="card-title">Administración</h5>
+        <div class="card">
+            <div class="card-body">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Búsqueda</div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                <input type="text" class="form-control classContrato" placeholder="Folio / Contrato" id="txtContrato" title="Separe con ',' si desea buscar mas de un folio o contrato">
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                <input type="number" SIZE=99999999 class="form-control classGrupo" placeholder="Grupo" id="txtGrupo" title="" onChange="validarSiNumero(this.value);">
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                <input type="number" SIZE=99999999 class="form-control classCliente" placeholder="Cliente" id="txtCliente" title="" onChange="validarSiNumero(this.value);">
+
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                <input type="submit" name="btn" value="Buscar" class="btn btn-lg btn-primary" id="btnBuscar" />
+                            </div>
+                        </div>                            
+                    </div>
+                </div>
+                <br /><br />
+                <div>
+                    <table id="tbEdoCuenta" class="table table-striped table-bordered" width="100%"></table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+    <div class="modal fade" id="largeModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+        <div class="modal-dialog modal-lg " style="max-width: 1000px; max-height: 1000px;">
+            <div class="modal-content" style="height: 1050px;">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Estado de Cuenta</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h3>PDF</h3>
+                    <div class="container" style="padding:5px 5px;height: 100%">
+                        @*<h1>Estado de Cuenta</h1>*@
+                        <iframe style=" width : 100%; height:100%" type="application/pdf" class="report-output"></iframe>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    @*<div class="col-md-3">
+                            <button type="button" id="btnEnviaCorreo" class="btn btn-primary" data-dismiss="modal">Enviar por correo</button>
+                        </div>*@
+                    <div class="col-md-2">
+
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    </div>
+                    @*<a href="pdfobject_sample.pdf" class="btn btn-primary" download target="_blank">
+                            Descargar
+                        </a>*@
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+
+    $("#txtContrato").focusout(function () {
+        if ($("#txtContrato").val().length > 0) {
+            $("#txtGrupo").val("");
+            $("#txtCliente").val("");
+        }
+    });
+
+    $("#txtGrupo").focusout(function () {
+        if ($("#txtGrupo").val().length > 0) {
+            $("#txtContrato").val("");
+        }
+    });
+    $("#txtCliente").focusout(function () {
+        if ($("#txtCliente").val().length > 0) {
+            $("#txtContrato").val("");
+        }
+    });
+
+    $(document).ready(function () {
+        $('html,body').css('cursor', 'progress');
+
+        $("#btnBuscar").click(function () {
+            if ($.fn.DataTable.isDataTable('#tbEdoCuenta')) {
+                $('#tbEdoCuenta').DataTable().clear();
+                $('#tbEdoCuenta').DataTable().destroy();
+            }
+
+            tableEdoCuenta = $('#tbEdoCuenta').DataTable({
+                            "order": [[0, "desc"]],
+                            "searching": false,
+                            "lengthChange": false,
+                            "processing": true,
+                            "serverSide": false,
+                            "language": { "url": "https://cdn.datatables.net/plug-ins/1.10.19/i18n/Spanish.json" },
+                            "ajax": {
+                                "url": '@Url.Action("GetEstadosCuentaBusqueda", "Admon")',
+                                "type": "GET",
+                                "datatype": "json",
+                                "data": {
+                                    "iContrato": $('#txtContrato').val(), "iGrupo": $('#txtGrupo').val(), "iCliente": $('#txtCliente').val()
+                                },
+                                "dataSrc": ""
+                            },
+                            columns:
+                                [
+                                    { "data": "Year", title: "Año" },
+                                    { "data": "Month", title: "Mes" },
+                                    { "data": "FilePath", title: "No.Contrato" },
+                                    {
+                                        "title": "PDF",
+                                        "orderable": false,
+                                        "render": function (data, type, row, meta) {
+                                            if (row.Month.length > 0) {
+                                                return $("<button ></button>", {
+                                                    "class": "btn btn-primary",
+                                                    "text": "Visualizar",
+                                                    "data-toggle": "modal",
+                                                    "data-target": "#myModal2"
+                                                }).append($("<i></i>", {
+                                                    "class": "glyphicon glyphicon-plus"
+                                                })).prop("outerHTML");
+                                            }
+                                            else {
+                                                return $("<p></p>", {
+                                                    "class": "",
+                                                    "text": "",
+                                                    "data-toggle": "",
+                                                    "data-target": ""
+                                                }).append($("<i></i>", {
+                                                    "class": "glyphicon glyphicon-plus"
+                                                })).prop("outerHTML");
+                                            }
+
+                                        }
+                                    }
+                                ]
+                        });
+                    $('html,body').css('cursor', 'auto');
+
+                    $("#tbEdoCuenta tbody").on("click", ".btn-primary", function () {
+
+                        d = tableEdoCuenta.row($(this).parents("tr")).data();
+
+                        $.ajax({
+                            type: "POST",
+                            url: '@Url.Action("GetPdfHtmlBusqueda", "Admon")',
+                            data: JSON.stringify({ anio: d.Year, mes: d.Month, RutaPDF: d.FilePath }),
+                            contentType: "application/json; charset=utf-8",
+                            dataType: "json",
+                            success: OnSuccess,
+                            failure: function (response) {
+                                $(".alert").text(response.d);
+                                $('#MensajeError').modal('show');
+                            }
+                        });
+                    });
+            
+        });
+
+        $('html,body').css('cursor', 'auto');
+        
+
+    });
+
+
+    function OnSuccess(response) {
+        $("#Pdf").empty()
+
+        const contentType = 'application/pdf';
+        const blob = b64toBlob(response, contentType);
+        const blobUrl = URL.createObjectURL(blob);
+        $('.report-output').attr('src', blobUrl);
+
+        $(".alert").text(response);
+        $('#largeModal').modal('show');
+    }
+
+    function b64toBlob(b64Data, contentType) {
+        const sliceSize = 512;
+        const byteCharacters = atob(b64Data);
+        const byteArrays = [];
+
+        for (let offset = 0; offset < byteCharacters.length; offset += sliceSize) {
+            const slice = byteCharacters.slice(offset, offset + sliceSize);
+
+            const byteNumbers = new Array(slice.length);
+            for (let i = 0; i < slice.length; i++) {
+                byteNumbers[i] = slice.charCodeAt(i);
+            }
+            const byteArray = new Uint8Array(byteNumbers);
+            byteArrays.push(byteArray);
+        }
+        const blob = new Blob(byteArrays, { type: contentType });
+        return blob;
+    }
+
+    function DeleteData(id) {
+        alert(id);
+    }
+</script>
+

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://45.235.173.229:7777/Service1.svc?xsd=xsd0" namespace="http://schemas.microsoft.com/Message" />
+  <xs:element name="Upload">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.microsoft.com/Message" name="input" type="q1:StreamBody" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UploadResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UploadResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Download">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="vs_datos" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DownloadResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.microsoft.com/Message" name="DownloadResult" type="q2:StreamBody" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EjecutaAppRemota">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="vs_datos" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EjecutaAppRemotaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="EjecutaAppRemotaResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConsultaMySQL">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="vs_datos" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ConsultaMySQLResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ConsultaMySQLResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DescargaMySQL">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="vs_datos" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DescargaMySQLResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DescargaMySQLResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Query">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="vs_datos" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="QueryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="QueryResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreaRegSQL">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="vs_ambiente" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="vs_datos" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="vs_sistema" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CreaRegSQLResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CreaRegSQLResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Pub_ConaEmiPolSAPS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="vi_Contrato" type="xs:int" />
+        <xs:element minOccurs="0" name="vi_Grupo" type="xs:int" />
+        <xs:element minOccurs="0" name="vi_Cliente" type="xs:int" />
+        <xs:element minOccurs="0" name="vs_Poliza" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="vs_Folio" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="vs_Convenio" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="vs_Aseguradora" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="vs_FormaPago" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="vi_MesesAsegurados" type="xs:int" />
+        <xs:element minOccurs="0" name="vi_NoPagos" type="xs:int" />
+        <xs:element minOccurs="0" name="vd_PrimaParcial" type="xs:decimal" />
+        <xs:element minOccurs="0" name="vd_PrimaTotal" type="xs:decimal" />
+        <xs:element minOccurs="0" name="vd_RecPFracc" type="xs:decimal" />
+        <xs:element minOccurs="0" name="vd_GtosExpd" type="xs:decimal" />
+        <xs:element minOccurs="0" name="vd_IVA" type="xs:decimal" />
+        <xs:element minOccurs="0" name="vi_Ocupantes" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Pub_ConaEmiPolSAPSResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Pub_ConaEmiPolSAPSResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="vi_code" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Pub_FinaEmiPolSAPS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="vs_Poliza" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="vs_Folio" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="vi_Contrato" type="xs:int" />
+        <xs:element minOccurs="0" name="vs_Aseguradora" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="vs_FormaPago" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="vi_Meses" type="xs:int" />
+        <xs:element minOccurs="0" name="vi_NoPagos" type="xs:int" />
+        <xs:element minOccurs="0" name="vd_PrimaParcial" type="xs:decimal" />
+        <xs:element minOccurs="0" name="vd_PrimaTotal" type="xs:decimal" />
+        <xs:element minOccurs="0" name="vd_RecPFracc" type="xs:decimal" />
+        <xs:element minOccurs="0" name="vd_GtosExpd" type="xs:decimal" />
+        <xs:element minOccurs="0" name="vd_IVA" type="xs:decimal" />
+        <xs:element minOccurs="0" name="vi_Ocupantes" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Pub_FinaEmiPolSAPSResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Pub_FinaEmiPolSAPSResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="vi_code" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Pub_ConaCancPolNTU">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="vi_Contrato" type="xs:int" />
+        <xs:element minOccurs="0" name="vi_Grupo" type="xs:int" />
+        <xs:element minOccurs="0" name="vi_Cliente" type="xs:int" />
+        <xs:element minOccurs="0" name="vs_FecSolicitud" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="vs_FecCancelacion" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="vs_TipoCancNTU" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Pub_ConaCancPolNTUResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Pub_ConaCancPolNTUResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="vi_code" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Pub_FinaCancPolNTU">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="vi_Contrato" type="xs:int" />
+        <xs:element minOccurs="0" name="vs_FecSolicitud" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="vs_FecCancelacion" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="vs_TipoCancNTU" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Pub_FinaCancPolNTUResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Pub_FinaCancPolNTUResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="vi_code" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

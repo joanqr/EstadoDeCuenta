@@ -1,0 +1,273 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Home.cshtml";
+}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    @*<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">*@
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    @*<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>*@
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <style>
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+
+<div class="row my-tab-header ">
+    <div class="col-md-12 text-center " style="padding:200px 0px 0px 0px;"></div>
+</div>
+
+<div class="container">
+    <h5 class="card-title">Actualiza tu perfil</h5>
+        <div class="card-body">
+            <form action="" class="needs-validation" id="example" name="registration">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="col-md-12">
+                                <br /><br />
+                                <div class="form-group row">
+                                    <br /><br />
+                                    <div class="custom-control custom-radio">
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" class="custom-control-input" id="cambiarNombre" name="groupOfDefaultRadios">
+                                        <label class="custom-control-label" for="cambiarNombre">Cambiar nombre</label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" class="custom-control-input" id="cambiarContraseña" name="groupOfDefaultRadios" checked>
+                                        <label class="custom-control-label" for="cambiarContraseña">Cambiar contraseña</label>
+                                    </div>
+                                </div>
+                                <!--<div class="form-group row">
+
+                                        <br /><br />
+                                        <div class="col-md-4">
+                                            <label for="pwd">E-mail:</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" id="cEMail" name="email" required readonly>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Favor de llenar los datos.</div>
+                                        </div>
+                                    </div>-->
+                            </div>
+                                <div class="col-md-12">
+                                    <div class="form-group row">
+                                        <br /><br />
+                                        <div class="col-md-4">
+                                            <label for="pwd">Nombres:</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" id="cNombres" name="cNombres" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group row">
+                                        <br /><br />
+                                        <div class="col-md-4">
+                                            <label for="pwd">Apellido Paterno:</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" id="cApePat" name="cApePat" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group row">
+                                        <br /><br />
+                                        <div class="col-md-4">
+                                            <label for="pwd">Apellido Materno:</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" id="cApeMat" name="cApeMat">
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group row">
+                                        <div class="col-md-4">
+                                            <label for="pwd">Contraseña Actual</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="password" class="form-control" id="pass" name="pass">
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group row">
+                                        <div class="col-md-4">
+                                            <label for="pwd">Nueva Contraseña</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="password" class="form-control" id="NewPass" name="pass2">
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group row">
+                                        <div class="col-md-4">
+                                            <label for="pwd">Confirmar Nueva Contraseña</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="password" class="form-control" id="confirmPass" name="pass3">
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group row">
+                                        <div class="col-md-4">
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="submit" name="btn" value="Cambiar" class="btn btn-lg btn-primary" id="btnUpdate" /><br /><br />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="col-md-6"></div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+<div class="modal" id="MyModalXyz">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                <p id="mensaje"></p>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" id="Change" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $("#NewPass").prop("disabled", false);
+    $("#confirmPass").prop("disabled", false);
+    $("#cNombres").prop("disabled", true);
+    $("#cApePat").prop("disabled", true);
+    $("#cApeMat").prop("disabled", true);
+
+    $(document).on('change', 'input:radio[id^="cambiarContraseña"]', function (event) {
+        $("#NewPass").prop("disabled", false);
+        $("#confirmPass").prop("disabled", false);
+        $("#cNombres").prop("disabled", true);
+        $("#cApePat").prop("disabled", true);
+        $("#cApeMat").prop("disabled", true);
+    });
+
+    $(document).on('change', 'input:radio[id^="cambiarNombre"]', function (event) {
+        $("#NewPass").prop("disabled", true);
+        $("#confirmPass").prop("disabled", true);
+        $("#cNombres").prop("disabled", false);
+        $("#cApePat").prop("disabled", false);
+        $("#cApeMat").prop("disabled", false);
+    });
+
+
+    jQuery.extend(jQuery.validator.messages, {
+        required: "Este campo es obligatorio.",
+        remote: "Por favor, rellena este campo.",
+        email: "Por favor, escribe una dirección de correo válida",
+        url: "Por favor, escribe una URL válida.",
+        date: "Por favor, escribe una fecha válida.",
+        dateISO: "Por favor, escribe una fecha (ISO) válida.",
+        number: "Por favor, escribe un número entero válido.",
+        digits: "Por favor, escribe sólo dígitos.",
+        creditcard: "Por favor, escribe un número de tarjeta válido.",
+        equalTo: "Las contraseñas no coinciden.",
+        accept: "Por favor, escribe un valor con una extensión aceptada.",
+        maxlength: jQuery.validator.format("Por favor, no escribas más de {0} caracteres."),
+        minlength: jQuery.validator.format("Por favor, no escribas menos de {0} caracteres."),
+        rangelength: jQuery.validator.format("Por favor, escribe un valor entre {0} y {1} caracteres."),
+        range: jQuery.validator.format("Por favor, escribe un valor entre {0} y {1}."),
+        max: jQuery.validator.format("Por favor, escribe un valor menor o igual a {0}."),
+        min: jQuery.validator.format("Por favor, escribe un valor mayor o igual a {0}.")
+    });
+    @*$("#btnUpdate").on("click", function () {
+              $.ajax({
+                    contentType: "application/json; charset=utf-8",
+                    type: "POST",
+                    url: "@Url.Action("UpdateUsuario", "Security")",
+                  data: JSON.stringify({ usuario: $("#cEMail").val(), password: $("#pass").val(), newPAss: $('#NewPass').val() }),
+                    success: function (data) {
+                        $('#MyModalXyz').modal('show');
+                        $('#mensaje').text(data);
+                    }
+                });
+    });*@
+
+    $("#btnUpdate").on("click", function () {
+
+        debugger;
+        if ($("#divRadios input[name='cambiarContraseña']").is(':checked')) {
+            var str = $('#NewPass').val()
+            
+            if (!str.match(/^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])([a-zA-Z0-9]{8,12})$/)) {
+                alert("La contraseña debe de contener al menos un carácter en mayúsculas, uno en minúsculas, un número y debe de medir por lo menos 8 caracteres y máximo 12.");
+                return false;
+            }
+        }
+
+        
+
+        $("#example").validate({
+            rules: {
+                pass2: {
+                    required:true,
+                    minlength: 6
+                },
+                pass3: {
+                    required:true,
+                    equalTo: "#NewPass"
+                }
+
+            },
+            messages: {
+                SelectName: { valueNotEquals: "Selecciona una opción por favor." }
+            },
+            submitHandler: function () {
+                $.ajax({
+                    contentType: "application/json; charset=utf-8",
+                    type: "POST",
+                    url: "@Url.Action("UpdateUsuario", "Security")",
+                    data: JSON.stringify({ usuario: '@Request.Cookies["Nombre"].Value.ToString()', password: $("#pass").val(), newPAss: $('#NewPass').val(), cNombres: $('#cNombres').val(), cApePat: $('#cApePat').val(), cApeMat: $('#cApeMat').val(), cCorreo: $('#cEMail').val()  }),
+                    success: function (data) {
+                        @*setTimeout(() => { $('#MyModalXyz').modal('show'); }, 3000);
+                        $('#mensaje').text(data);*@
+                        alert(data);
+                        if (!data.startsWith("(E1) "))
+                           window.location.href = "@Url.Action("AccountStatement", "AccountStatement")";
+                    }
+                });
+            }
+        });
+    });
+</script>

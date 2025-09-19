@@ -1,0 +1,117 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Admon.cshtml";
+
+}
+
+<div class="row my-tab-header ">
+    <div class="col-md-12 text-center " style="padding:200px 0px 0px 0px;"></div>
+</div>
+
+<div class="container">
+    <h5 class="card-title">Administración</h5>
+    <div class="card">
+        <div class="card-body">
+            <h2>Activar o desactivar  Mantenimiento</h2>
+            <div>
+                <input type="checkbox" id="check-manto" checked data-toggle="toggle" data-onstyle="success" data-offstyle="danger">
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="btnGuardaCambio" class="btn btn-primary" data-dismiss="modal">Guardar Cambio</button>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="MensajeError">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <p class="alert alert-danger" role="alert"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="Change" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="MensajeOK">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <p class="alert alert-success" role="alert"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="Change" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $.holdReady(true);
+    $.LoadingOverlay("show");
+    var valCheck = null;
+
+    ObtieneOpcionMantenimiento();
+    $(document).ready(function () {
+  if (valCheck == 0) {
+         $('#check-manto').data("bs.toggle").off(true)
+        } else {
+         $('#check-manto').data("bs.toggle").on(true)
+    }
+    })
+
+    $("#btnGuardaCambio").click(function () {
+        var opcion = $("#check-manto").prop('checked');
+        var innt = Number(valCheck); 
+
+        if (Number(opcion) == innt) {
+            $(".alert").text("Debe seleccionar una opcion diferente");
+            $('#MensajeError').modal('show');
+        } else {
+            $.LoadingOverlay("show");
+            UpdateOpcionMantenimiento(opcion)
+        }
+    });
+
+    function ObtieneOpcionMantenimiento() {
+        $.ajax({
+            type: "POST",
+            url: '@Url.Action("GetMaintenence", "Maintenance")',
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (response) {
+            valCheck = response;
+                $.holdReady(false);
+                $.LoadingOverlay("hide");
+            },
+            failure: function (response) {
+                $(".alert").text("Error al activar o desactivar");
+                $('#MensajeError').modal('show');
+                $.holdReady(false);
+                $.LoadingOverlay("hide");
+            }
+            });
+    }
+      function UpdateOpcionMantenimiento(opcion) {
+        $.ajax({
+            type: "POST",
+            url: '@Url.Action("SetMaintenence", "Maintenance")',
+            data: JSON.stringify({ opcion: opcion }),
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (resp) {
+                if (resp) {
+                    valCheck = opcion;
+                $(".alert").text("Guardado con exito");
+                $('#MensajeOK').modal('show');
+                }
+                $.LoadingOverlay("hide");
+            },
+            failure: function (response) {
+                $(".alert").text(response.d);
+                $('#MensajeError').modal('show');
+                $.LoadingOverlay("hide");
+            }
+            });
+    }
+</script>

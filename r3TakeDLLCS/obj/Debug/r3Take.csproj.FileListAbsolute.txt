@@ -1,0 +1,57 @@
+C:\Users\CHACK\NET\r3TakeDLLCS\bin\Debug\r3Take.dll
+C:\Users\CHACK\NET\r3TakeDLLCS\bin\Debug\r3Take.pdb
+C:\Users\CHACK\NET\r3TakeDLLCS\bin\Debug\ChilkatDotNet4.dll
+C:\Users\CHACK\NET\r3TakeDLLCS\obj\Debug\r3Take.dll
+C:\Users\CHACK\NET\r3TakeDLLCS\obj\Debug\r3Take.pdb
+C:\Users\CHACK\NET\r3TakeDLLCS\obj\Debug\r3Take.csprojResolveAssemblyReference.cache
+C:\Users\Alcome FX\Desktop\TFS Net\r3TakeDLLCS\bin\Debug\r3Take.dll
+C:\Users\Alcome FX\Desktop\TFS Net\r3TakeDLLCS\bin\Debug\r3Take.pdb
+C:\Users\Alcome FX\Desktop\TFS Net\r3TakeDLLCS\obj\Debug\r3Take.csprojResolveAssemblyReference.cache
+C:\Users\Alcome FX\Desktop\TFS Net\r3TakeDLLCS\obj\Debug\r3Take.dll
+C:\Users\Alcome FX\Desktop\TFS Net\r3TakeDLLCS\obj\Debug\r3Take.pdb
+C:\Users\Alcome FX.OLD\Desktop\TFS Net\r3TakeDLLCS\bin\Debug\r3Take.dll
+C:\Users\Alcome FX.OLD\Desktop\TFS Net\r3TakeDLLCS\bin\Debug\r3Take.pdb
+C:\Users\Alcome FX.OLD\Desktop\TFS Net\r3TakeDLLCS\obj\Debug\r3Take.csprojResolveAssemblyReference.cache
+C:\Users\Alcome FX.OLD\Desktop\TFS Net\r3TakeDLLCS\obj\Debug\r3Take.dll
+C:\Users\Alcome FX.OLD\Desktop\TFS Net\r3TakeDLLCS\obj\Debug\r3Take.pdb
+C:\Users\Aldo\Desktop\TFS Net\r3TakeDLLCS\bin\Debug\r3Take.dll
+C:\Users\Aldo\Desktop\TFS Net\r3TakeDLLCS\bin\Debug\r3Take.pdb
+C:\Users\Aldo\Desktop\TFS Net\r3TakeDLLCS\obj\Debug\r3Take.csprojResolveAssemblyReference.cache
+C:\Users\Aldo\Desktop\TFS Net\r3TakeDLLCS\obj\Debug\r3Take.dll
+C:\Users\Aldo\Desktop\TFS Net\r3TakeDLLCS\obj\Debug\r3Take.pdb
+E:\Freight Ideas\TFS Net\r3TakeDLLCS\bin\Debug\r3Take.dll
+E:\Freight Ideas\TFS Net\r3TakeDLLCS\bin\Debug\r3Take.pdb
+E:\Freight Ideas\TFS Net\r3TakeDLLCS\obj\Debug\r3Take.csprojAssemblyReference.cache
+E:\Freight Ideas\TFS Net\r3TakeDLLCS\obj\Debug\r3Take.csproj.CoreCompileInputs.cache
+E:\Freight Ideas\TFS Net\r3TakeDLLCS\obj\Debug\r3Take.dll
+E:\Freight Ideas\TFS Net\r3TakeDLLCS\obj\Debug\r3Take.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\r3TakeDLLCS\bin\Debug\r3Take.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\r3TakeDLLCS\bin\Debug\r3Take.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\r3TakeDLLCS\obj\Debug\r3Take.csprojAssemblyReference.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\r3TakeDLLCS\obj\Debug\r3Take.csproj.CoreCompileInputs.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\r3TakeDLLCS\obj\Debug\r3Take.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\r3TakeDLLCS\obj\Debug\r3Take.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\r3TakeDLLCS\bin\Debug\r3Take.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\r3TakeDLLCS\bin\Debug\r3Take.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\r3TakeDLLCS\obj\Debug\r3Take.csprojAssemblyReference.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\r3TakeDLLCS\obj\Debug\r3Take.csproj.CoreCompileInputs.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\r3TakeDLLCS\obj\Debug\r3Take.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\r3TakeDLLCS\obj\Debug\r3Take.pdb
+C:\_Dev_Aldo\ecweb\r3TakeDLLCS\bin\Debug\r3Take.dll
+C:\_Dev_Aldo\ecweb\r3TakeDLLCS\bin\Debug\r3Take.pdb
+C:\_Dev_Aldo\ecweb\r3TakeDLLCS\obj\Debug\r3Take.csprojAssemblyReference.cache
+C:\_Dev_Aldo\ecweb\r3TakeDLLCS\obj\Debug\r3Take.csproj.CoreCompileInputs.cache
+C:\_Dev_Aldo\ecweb\r3TakeDLLCS\obj\Debug\r3Take.dll
+C:\_Dev_Aldo\ecweb\r3TakeDLLCS\obj\Debug\r3Take.pdb
+C:\_Dev_Dzn\ecweb\r3TakeDLLCS\bin\Debug\r3Take.dll
+C:\_Dev_Dzn\ecweb\r3TakeDLLCS\bin\Debug\r3Take.pdb
+C:\_Dev_Dzn\ecweb\r3TakeDLLCS\obj\Debug\r3Take.csprojAssemblyReference.cache
+C:\_Dev_Dzn\ecweb\r3TakeDLLCS\obj\Debug\r3Take.csproj.CoreCompileInputs.cache
+C:\_Dev_Dzn\ecweb\r3TakeDLLCS\obj\Debug\r3Take.dll
+C:\_Dev_Dzn\ecweb\r3TakeDLLCS\obj\Debug\r3Take.pdb
+D:\Proyectos\Financiera\ecweb\r3TakeDLLCS\bin\Debug\r3Take.dll
+D:\Proyectos\Financiera\ecweb\r3TakeDLLCS\bin\Debug\r3Take.pdb
+D:\Proyectos\Financiera\ecweb\r3TakeDLLCS\obj\Debug\r3Take.csproj.AssemblyReference.cache
+D:\Proyectos\Financiera\ecweb\r3TakeDLLCS\obj\Debug\r3Take.csproj.CoreCompileInputs.cache
+D:\Proyectos\Financiera\ecweb\r3TakeDLLCS\obj\Debug\r3Take.dll
+D:\Proyectos\Financiera\ecweb\r3TakeDLLCS\obj\Debug\r3Take.pdb

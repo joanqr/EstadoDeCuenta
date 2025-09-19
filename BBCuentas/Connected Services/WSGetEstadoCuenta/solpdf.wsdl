@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="urn:solpdf" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:S2="urn:solpdf:solpdf" xmlns:S1="urn:soap-fault:details" xmlns:prodata="urn:schemas-progress-com:xml-prodata:0001" xmlns="http://schemas.xmlsoap.org/wsdl/" name="solpdf" targetNamespace="urn:solpdf" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>Author=DAYZEN Solutions, EncodingType=DOC_LITERAL, WSA_Product=10.2A03 - N/A</wsdl:documentation>
+  <wsdl:types>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="unqualified" targetNamespace="urn:soap-fault:details">
+      <xsd:element name="FaultDetail">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="errorMessage" type="xsd:string" />
+            <xsd:element name="requestID" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="urn:solpdf:solpdf">
+      <xsd:element name="wsSolpdf">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="ipiEmpresa" nillable="true" type="xsd:int" />
+            <xsd:element name="ipiGrupo" nillable="true" type="xsd:int" />
+            <xsd:element name="ipiCliente" nillable="true" type="xsd:int" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="wsSolpdfResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="result" nillable="true" type="xsd:string" />
+            <xsd:element name="opiCodigo" nillable="true" type="xsd:int" />
+            <xsd:element name="opcMensaje" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="solpdf_wsSolpdf">
+    <wsdl:part name="parameters" element="S2:wsSolpdf" />
+  </wsdl:message>
+  <wsdl:message name="FaultDetailMessage">
+    <wsdl:part name="FaultDetail" element="S1:FaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="solpdf_wsSolpdfResponse">
+    <wsdl:part name="parameters" element="S2:wsSolpdfResponse" />
+  </wsdl:message>
+  <wsdl:portType name="solpdfObj">
+    <wsdl:operation name="wsSolpdf">
+      <wsdl:input message="tns:solpdf_wsSolpdf" />
+      <wsdl:output message="tns:solpdf_wsSolpdfResponse" />
+      <wsdl:fault name="solpdfFault" message="tns:FaultDetailMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="solpdfObj" type="tns:solpdfObj">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="wsSolpdf">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="solpdfFault">
+        <soap:fault use="literal" name="solpdfFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="solpdfService">
+    <wsdl:port name="solpdfObj" binding="tns:solpdfObj">
+      <wsdl:documentation>Webservice para solicitud de estado de cuenta en PDF.</wsdl:documentation>
+      <soap:address location="http://45.235.173.228:8080/wsa/wsa1" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

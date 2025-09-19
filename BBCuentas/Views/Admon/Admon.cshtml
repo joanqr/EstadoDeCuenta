@@ -1,0 +1,102 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Admon.cshtml";
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Admon</title>
+</head>
+
+<body>
+    <div class="row my-tab-header ">
+        <div class="col-md-12 text-center " style="padding:200px 0px 0px 0px;"></div>
+    </div>
+
+    <div class="container">
+        <h5 class="card-title">Administración</h5>
+        <div class="card">
+            <div class="card-body">
+                <h2>Contratos</h2>
+
+                <div>
+
+                    <table id="tbClientes" class="table table-striped table-bordered" width="100%">
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $('html,body').css('cursor', 'progress');
+        $('#tbClientes').DataTable({
+            "processing": true,
+            "serverSide": false,
+            "language": {"url":"https://cdn.datatables.net/plug-ins/1.10.19/i18n/Spanish.json"},
+            "ajax": {
+                "url": '@Url.Action("GetContratosClientes", "Admon")',
+                "type": "GET",
+                "datatype": "json",
+                "dataSrc": ""
+            },
+            columns:
+                [
+                    { "data": "cNombreCompleto", title: "Nombre" },
+                    { "data": "cEMail", title: "E-mail" },
+                    { "data": "iContrato", title: "No.Contrato" },
+                    {
+                        "title": "Tipo Fina",
+                        "orderable": false,
+                        "render": function (data, type, row, meta) {
+                            
+                            if (row.TipoFina == "1") {
+                                return $("<p>FI</p>", {
+                                    "class": "",
+                                    "text": "",
+                                    "data-toggle": "",
+                                    "data-target": ""   
+                                }).append($("<i></i>", {
+                                    "class": "glyphicon glyphicon-plus"
+                                })).prop("outerHTML");
+                            }
+                            if (row.TipoFina == "2") {
+                                return $("<p>AF</p>", {
+                                    "class": "",
+                                    "text": "",
+                                    "data-toggle": "",
+                                    "data-target": ""
+                                }).append($("<i></i>", {
+                                    "class": "glyphicon glyphicon-plus"
+                                })).prop("outerHTML");
+                            }
+                            if (row.TipoFina == "0") {
+                                return $("<p></p>", {
+                                    "class": "",
+                                    "text": "",
+                                    "data-toggle": "",
+                                    "data-target": ""
+                                }).append($("<i></i>", {
+                                    "class": "glyphicon glyphicon-plus"
+                                })).prop("outerHTML");
+                            }
+                            
+
+                        }
+                    }
+                ]
+        });
+        $('html,body').css('cursor', 'auto');
+    });
+
+    function DeleteData(id) {
+        alert(id);
+    }
+</script>

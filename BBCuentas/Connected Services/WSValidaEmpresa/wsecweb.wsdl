@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="urn:wsecweb" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:S2="urn:wsecweb:wsecweb" xmlns:S1="urn:soap-fault:details" xmlns:prodata="urn:schemas-progress-com:xml-prodata:0001" xmlns="http://schemas.xmlsoap.org/wsdl/" name="wsecweb" targetNamespace="urn:wsecweb" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>Author=DAYZEN Solutions, EncodingType=DOC_LITERAL, WSA_Product=10.2A - N/A</wsdl:documentation>
+  <wsdl:types>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="unqualified" targetNamespace="urn:soap-fault:details">
+      <xsd:element name="FaultDetail">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="errorMessage" type="xsd:string" />
+            <xsd:element name="requestID" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="urn:wsecweb:wsecweb">
+      <xsd:element name="wsEcweb">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="ipiContrato" nillable="true" type="xsd:int" />
+            <xsd:element name="ipiGrupo" nillable="true" type="xsd:int" />
+            <xsd:element name="ipiCliente" nillable="true" type="xsd:int" />
+            <xsd:element name="ipcNombre" nillable="true" type="xsd:string" />
+            <xsd:element name="ipcPrimerap" nillable="true" type="xsd:string" />
+            <xsd:element name="ipcSegundoap" nillable="true" type="xsd:string" />
+            <xsd:element name="ipiCp" nillable="true" type="xsd:int" />
+            <xsd:element name="ipcFecha" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="wsEcwebResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="result" nillable="true" type="xsd:string" />
+            <xsd:element name="opiCodigo" nillable="true" type="xsd:int" />
+            <xsd:element name="opcMensaje" nillable="true" type="xsd:string" />
+            <xsd:element name="opiIdcontrato" nillable="true" type="xsd:int" />
+            <xsd:element name="opiEmpresa" nillable="true" type="xsd:int" />
+            <xsd:element name="opiGrupo" nillable="true" type="xsd:int" />
+            <xsd:element name="opiCliente" nillable="true" type="xsd:int" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="FaultDetailMessage">
+    <wsdl:part name="FaultDetail" element="S1:FaultDetail" />
+  </wsdl:message>
+  <wsdl:message name="wsecweb_wsEcwebResponse">
+    <wsdl:part name="parameters" element="S2:wsEcwebResponse" />
+  </wsdl:message>
+  <wsdl:message name="wsecweb_wsEcweb">
+    <wsdl:part name="parameters" element="S2:wsEcweb" />
+  </wsdl:message>
+  <wsdl:portType name="wsecwebObj">
+    <wsdl:operation name="wsEcweb">
+      <wsdl:input message="tns:wsecweb_wsEcweb" />
+      <wsdl:output message="tns:wsecweb_wsEcwebResponse" />
+      <wsdl:fault name="wsecwebFault" message="tns:FaultDetailMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="wsecwebObj" type="tns:wsecwebObj">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="wsEcweb">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="wsecwebFault">
+        <soap:fault use="literal" name="wsecwebFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="wsecwebService">
+    <wsdl:port name="wsecwebObj" binding="tns:wsecwebObj">
+      <wsdl:documentation>Webservice para consulta de contratos.</wsdl:documentation>
+      <soap:address location="http://45.235.173.229:8080/wsa/wsa1" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

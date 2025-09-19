@@ -1,0 +1,18 @@
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\ModelLayer\bin\Release\ModelLayer.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\ModelLayer\bin\Release\ModelLayer.pdb
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\ModelLayer\obj\Release\ModelLayer.csprojAssemblyReference.cache
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\ModelLayer\obj\Release\ModelLayer.csproj.CoreCompileInputs.cache
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\ModelLayer\obj\Release\ModelLayer.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\ModelLayer\obj\Release\ModelLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\ModelLayer\bin\Release\ModelLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\ModelLayer\bin\Release\ModelLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\ModelLayer\obj\Release\ModelLayer.csprojAssemblyReference.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\ModelLayer\obj\Release\ModelLayer.csproj.CoreCompileInputs.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\ModelLayer\obj\Release\ModelLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\ModelLayer\obj\Release\ModelLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\ModelLayer\bin\Release\ModelLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\ModelLayer\bin\Release\ModelLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\ModelLayer\obj\Release\ModelLayer.csprojAssemblyReference.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\ModelLayer\obj\Release\ModelLayer.csproj.CoreCompileInputs.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\ModelLayer\obj\Release\ModelLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\ModelLayer\obj\Release\ModelLayer.pdb

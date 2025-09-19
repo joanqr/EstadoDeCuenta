@@ -1,0 +1,33 @@
+C:\Users\Alcome FX\Desktop\TFS Net\r3TakeDLLCS\bin\Release\r3Take.dll
+C:\Users\Alcome FX\Desktop\TFS Net\r3TakeDLLCS\bin\Release\r3Take.pdb
+C:\Users\Alcome FX\Desktop\TFS Net\r3TakeDLLCS\obj\Release\r3Take.csprojResolveAssemblyReference.cache
+C:\Users\Alcome FX\Desktop\TFS Net\r3TakeDLLCS\obj\Release\r3Take.dll
+C:\Users\Alcome FX\Desktop\TFS Net\r3TakeDLLCS\obj\Release\r3Take.pdb
+C:\Users\Aldo\Desktop\TFS Net\r3TakeDLLCS\bin\Release\r3Take.dll
+C:\Users\Aldo\Desktop\TFS Net\r3TakeDLLCS\bin\Release\r3Take.pdb
+C:\Users\Aldo\Desktop\TFS Net\r3TakeDLLCS\obj\Release\r3Take.dll
+C:\Users\Aldo\Desktop\TFS Net\r3TakeDLLCS\obj\Release\r3Take.pdb
+C:\Users\Aldo\Desktop\TFS Net\r3TakeDLLCS\obj\Release\r3Take.csprojResolveAssemblyReference.cache
+C:\Users\acordova\Desktop\Freight Ideas\TFS Net\r3TakeDLLCS\bin\Release\r3Take.dll
+C:\Users\acordova\Desktop\Freight Ideas\TFS Net\r3TakeDLLCS\bin\Release\r3Take.pdb
+C:\Users\acordova\Desktop\Freight Ideas\TFS Net\r3TakeDLLCS\obj\Release\r3Take.csprojResolveAssemblyReference.cache
+C:\Users\acordova\Desktop\Freight Ideas\TFS Net\r3TakeDLLCS\obj\Release\r3Take.dll
+C:\Users\acordova\Desktop\Freight Ideas\TFS Net\r3TakeDLLCS\obj\Release\r3Take.pdb
+E:\Freight Ideas\TFS Net\r3TakeDLLCS\bin\Release\r3Take.dll
+E:\Freight Ideas\TFS Net\r3TakeDLLCS\bin\Release\r3Take.pdb
+E:\Freight Ideas\TFS Net\r3TakeDLLCS\obj\Release\r3Take.csprojAssemblyReference.cache
+E:\Freight Ideas\TFS Net\r3TakeDLLCS\obj\Release\r3Take.csproj.CoreCompileInputs.cache
+E:\Freight Ideas\TFS Net\r3TakeDLLCS\obj\Release\r3Take.dll
+E:\Freight Ideas\TFS Net\r3TakeDLLCS\obj\Release\r3Take.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\r3TakeDLLCS\bin\Release\r3Take.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\r3TakeDLLCS\bin\Release\r3Take.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\r3TakeDLLCS\obj\Release\r3Take.csprojAssemblyReference.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\r3TakeDLLCS\obj\Release\r3Take.csproj.CoreCompileInputs.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\r3TakeDLLCS\obj\Release\r3Take.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\r3TakeDLLCS\obj\Release\r3Take.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\r3TakeDLLCS\bin\Release\r3Take.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\r3TakeDLLCS\bin\Release\r3Take.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\r3TakeDLLCS\obj\Release\r3Take.csprojAssemblyReference.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\r3TakeDLLCS\obj\Release\r3Take.csproj.CoreCompileInputs.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\r3TakeDLLCS\obj\Release\r3Take.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\r3TakeDLLCS\obj\Release\r3Take.pdb

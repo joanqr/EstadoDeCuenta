@@ -1,0 +1,33 @@
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BusinessLayer\bin\Release\BusinessLayer.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BusinessLayer\bin\Release\BusinessLayer.pdb
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BusinessLayer\bin\Release\DataLayer.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BusinessLayer\bin\Release\ModelLayer.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BusinessLayer\bin\Release\DataLayer.pdb
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BusinessLayer\bin\Release\ModelLayer.pdb
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BusinessLayer\obj\Release\BusinessLayer.csprojAssemblyReference.cache
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BusinessLayer\obj\Release\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BusinessLayer\obj\Release\BusinessLayer.csproj.CopyComplete
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BusinessLayer\obj\Release\BusinessLayer.dll
+C:\Users\zaras\source\repos\y-martinezr\BBCuentas\BusinessLayer\obj\Release\BusinessLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BusinessLayer\bin\Release\BusinessLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BusinessLayer\bin\Release\BusinessLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BusinessLayer\bin\Release\DataLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BusinessLayer\bin\Release\ModelLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BusinessLayer\bin\Release\DataLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BusinessLayer\bin\Release\ModelLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BusinessLayer\obj\Release\BusinessLayer.csprojAssemblyReference.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BusinessLayer\obj\Release\BusinessLayer.csproj.CoreCompileInputs.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BusinessLayer\obj\Release\BusinessLayer.csproj.CopyComplete
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BusinessLayer\obj\Release\BusinessLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\BBCuentas\BusinessLayer\obj\Release\BusinessLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BusinessLayer\bin\Release\BusinessLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BusinessLayer\bin\Release\BusinessLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BusinessLayer\bin\Release\DataLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BusinessLayer\bin\Release\ModelLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BusinessLayer\bin\Release\DataLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BusinessLayer\bin\Release\ModelLayer.pdb
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BusinessLayer\obj\Release\BusinessLayer.csprojAssemblyReference.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BusinessLayer\obj\Release\BusinessLayer.csproj.CoreCompileInputs.cache
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BusinessLayer\obj\Release\BusinessLayer.csproj.CopyComplete
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BusinessLayer\obj\Release\BusinessLayer.dll
+E:\Nueva Empresa\Propuestas Comerciales\Dayzen\Proyectos Productivos\BBCuentas\BusinessLayer\obj\Release\BusinessLayer.pdb

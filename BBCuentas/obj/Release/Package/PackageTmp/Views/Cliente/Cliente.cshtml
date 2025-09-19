@@ -1,0 +1,441 @@
+﻿@{
+    Layout = "~/Views/Shared/_Admon.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Admon</title>
+</head>
+
+<body>
+    <div class="row my-tab-header ">
+        <div class="col-md-12 text-center " style="padding:200px 0px 0px 0px;"></div>
+    </div>
+
+    <div class="container">
+        <h5 class="card-title">Administración</h5>
+        <div class="card">
+            <div class="card-body">
+                <h2>Clientes</h2>
+                <div>
+                    
+                    <table id="tbClientes" class="table table-striped table-bordered display" width="100%">
+
+                        @*<tfoot>
+                            <tr>
+                                <th>idUsuario</th>
+                                <th>Nombre</th>
+                                <th>E-mail</th>
+                                <th>bMailVerificado</th>
+                                <th>bTelVerificado</th>
+                                <th>Situación del Cliente</th>
+                                <th>IdEstatus</th>
+                                <th>Estatus</th>
+                                <th>Cambio</th>
+                            </tr>
+                        </tfoot>*@
+                    </table>
+
+                </div>
+                <div>
+                    <button type="button" id="btnEstadicticas" class="btn btn-primary" data-target="#modalEstadisticas" data-toggle="modal">Estadísticas</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade"
+         id="myModal"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="myModalLabel">
+        <div class="modal-dialog"
+             role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h4 class="modal-title"
+                        id="myModalLabel">
+                        Seleccione el estatus que desea establecer
+                    </h4>
+                    <button type="button"
+                            class="close"
+                            data-dismiss="modal"
+                            aria-label="Close">
+                        <span aria-hidden="true">
+                            &times;
+                        </span>
+                    </button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <p class="alert alert-danger" role="alert"></p>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="estatusCliente">
+                                Estatus
+                            </label>
+                            <select class="form-control" id="selEstatus">
+                                <option>Seleccione</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button"
+                            class="btn btn-danger"
+                            data-dismiss="modal">
+                        Cerrar
+                    </button>
+                    <button type="button"
+                            class="btn btn-success">
+                        Guardar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade"
+         id="modalEstadisticas"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="myModalLabel">
+        <div class="modal-dialog"
+             role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h4 class="modal-title"
+                        id="myModalLabel">
+                        Estadísticas clientes
+                    </h4>
+                    <button type="button"
+                            class="close"
+                            data-dismiss="modal"
+                            aria-label="Close">
+                        <span aria-hidden="true">
+                            &times;
+                        </span>
+                    </button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <p class="alert alert-danger" role="alert"></p>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <div class="modal-body">
+                                <label for="activos">
+                                    Total Activos:
+                                </label>
+                                <label id="lblTotalActivos">
+                                </label>
+                            </div>
+                            <div class="modal-body">
+                                <label for="inactivos">
+                                    Total Faltantes:
+                                </label>
+                                <label id="lblTotalFaltantes">
+                                </label>
+                            </div>
+                            <div class="modal-body">
+                                <label for="migrados">
+                                    Total Migrados:
+                                </label>
+                                <label id="lblTotalMigrados">
+                                </label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button"
+                            class="btn btn-danger"
+                            data-dismiss="modal">
+                        Cerrar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="Mensaje">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <p class="alert alert-success" role="alert"></p>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+
+                    <button type="button" id="Change" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+<script type="text/javascript">
+
+    $.holdReady(true);
+     $.LoadingOverlay("show");
+    var remoteJSONContent = null;
+    var d = null
+    var table = null
+    var estadisticas=null
+    dataFetch();
+    function dataFetch() {
+        $.ajax({
+            type: "GET",
+            url: '@Url.Action("GetEstatus", "Cliente")',
+            contentType: "application/json",
+            success: function (response) {
+                remoteJSONContent = response;
+                OcultaLoading();
+            },
+            error: function (xhr) {
+                remoteJSONContent = null
+                alert('Error al consultar los Estatus.');
+                OcultaLoading();
+            }
+        });
+    }
+
+    $.fn.dataTable.ext.search.push(
+        function (settings, data, dataIndex) {
+            var min = parseInt($('#min').val(), 10);
+            var max = parseInt($('#max').val(), 10);
+            var age = parseFloat(data[3]) || 0; // use data for the age column
+
+            if ((isNaN(min) && isNaN(max)) ||
+                (isNaN(min) && age <= max) ||
+                (min <= age && isNaN(max)) ||
+                (min <= age && age <= max)) {
+                return true;
+            }
+            return false;
+        }
+    );
+
+    $(document).ready(function () {
+        //$('#selEstatus').selectpicker();
+
+
+
+
+        $.each(remoteJSONContent, function (i, o) {
+            $('#selEstatus').append($('<option>', {
+                value: o.IdEstatus,
+                text: o.Descripcion
+            }));
+        })
+
+
+        table = $('#tbClientes').DataTable({
+            "processing": true,
+            "serverSide": false,
+            "language": { "url": "https://cdn.datatables.net/plug-ins/1.10.19/i18n/Spanish.json" },
+            "ajax": {
+                "url": '@Url.Action("GetClientes", "Cliente")',
+                "type": "GET",
+                "datatype": "json",
+                "data": {
+                    "alcome": "Hola Mundo"
+                },
+                "dataSrc": ""
+            },
+            columns:
+                [
+                    { "data": "idUsuario" },
+                    { "data": "cNombreCompleto", title: "Nombre" },
+                    { "data": "cEMail", title: "E-mail" },
+                    { "data": "bMailVerificado" },
+                    { "data": "bTelVerificado" },
+                    { "data": "cSituacionCliente", title: "Situación del Cliente" },
+                    { "data": "Estatus.IdEstatus" },
+                    { "data": "Estatus.Descripcion", title: "Estatus" },
+                    {
+                        "title": "Modificar Estatus",
+                        "orderable": false,
+                        "render": function () {
+                            return $("<button></button>", {
+                                "class": "btn btn-primary",
+                                "text": "Cambiar",
+                                "data-toggle": "modal",
+                                "data-target": "#myModal"
+                            }).append($("<i></i>", {
+                                "class": "glyphicon glyphicon-plus"
+                            })).prop("outerHTML");
+                        }
+                    }
+
+                ],
+            columnDefs: [
+                { targets: [0,3,4,6], visible: false }
+            ]
+
+        });
+
+
+
+        
+
+        $("#tbClientes tbody").on("click", ".btn-primary", function () {
+
+            d = table.row($(this).parents("tr")).data();
+
+            $("#myModal").data("original", d);
+            $("#selEstatus").val(d.Estatus.IdEstatus).change();
+            $(".alert").hide()
+            OcultaLoading();
+
+        });
+
+        $("#myModal").on("click", ".btn-success", function () {
+            var sel = $("#selEstatus").val();
+            $(".alert").hide()
+            if (sel == 'Seleccione') {
+                d = null;
+                $(".alert").show()
+                $(".alert").text("Debe elegir un estatus válido");
+                OcultaLoading();
+                return false;
+            }
+
+            var d = $("#myModal").data("original");
+            if (d.Estatus.IdEstatus == sel) {
+                d = null
+                $(".alert").show();
+                $(".alert").text("Debe elegir un estatus distinto al estatus actual");
+                OcultaLoading();
+                return false;
+            }
+
+            //Actualizar Estatus
+            if (sel == 1) {
+                if (d.bMailVerificado && d.bTelVerificado) {
+                    UpdateEstatus(d, sel)
+                } else if (d.bMailVerificado == false && d.bTelVerificado) {
+                    $(".alert").show();
+                    $(".alert").text("Falta Validar E-mail");
+                    OcultaLoading();
+                    return false;
+                } else if (d.bMailVerificado && d.bTelVerificado == false) {
+                    $(".alert").show();
+                    $(".alert").text("Falta Validar Teléfono");
+                    OcultaLoading();
+                    return false;
+                } else {
+                    $(".alert").show();
+                    $(".alert").text("Falta Validar E-mail y Télefono");
+                    OcultaLoading();
+                    return false;
+                }
+            }
+            else {
+                 UpdateEstatus(d, sel)
+            }
+
+
+            $("#myModal").modal("hide");
+        }).on("hidden.bs.modal", function () {
+            $("#myModal")
+                .removeData("original")
+        });
+
+        $('#example tfoot th').each(function () {
+            var title = $(this).text();
+            $(this).html('<input type="text" placeholder="Search ' + title + '" />');
+        });
+
+
+        $('#tbClientes tfoot th').each(function () {
+            var title = $(this).text();
+            $(this).html('<input type="text" placeholder="Search ' + title + '" />');
+        });
+
+        // Apply the search
+        table.columns().every(function () {
+            var that = this;
+
+            $('input', this.footer()).on('keyup change clear', function () {
+                if (that.search() !== this.value) {
+                    that
+                        .search(this.value)
+                        .draw();
+                }
+            });
+        });
+    });
+
+    function DeleteData(id) {
+        alert(id);
+    }
+
+    function UpdateEstatus(d, sel) {
+        $.ajax({
+            type: "POST",
+            url: '@Url.Action("SetEstatusCliente", "Cliente")',
+            data: JSON.stringify({ idUsuario: d.idUsuario, idEstatus: sel }),
+            contentType: "application/json",
+            success: function (response) {
+                if (response) {
+                    $('#tbClientes').DataTable().ajax.reload();
+                    $(".alert").show()
+                    $(".alert").text(response);
+                    $('#Mensaje').modal('show');
+                    OcultaLoading();
+                } else
+                     $(".alert").show()
+                     $(".alert").text(response);
+                     $('#Mensaje').modal('show');
+                     OcultaLoading();
+            },
+            error: function (xhr) {
+                $(".alert").show()
+                $(".alert").text('Error al asignar estatus.');
+                $('#Mensaje').modal('show');
+                OcultaLoading();
+            }
+        });
+    }
+
+    $("#btnEstadicticas").click(function () {
+        ObtieneEstadisticas();
+    });
+    function ObtieneEstadisticas() {
+        $.ajax({
+            type: "GET",
+            url: '@Url.Action("GetEstadisticas", "Cliente")',
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (response) {
+                $("#modalEstadisticas").data("original", response);
+                var d = $("#modalEstadisticas").data("original");
+                $("#lblTotalActivos").text(d.totalAct);
+                $("#lblTotalFaltantes").text(d.totalFalt);
+                $("#lblTotalMigrados").text(d.totalMig);
+                $(".alert").hide();
+            },
+            failure: function (response) {
+                $(".alert").text("Error al activar o desactivar");
+                $('#MensajeError').modal('show');
+                OcultaLoading();
+            }
+            });
+    }
+    function OcultaLoading() {
+         $.holdReady(false);
+         $.LoadingOverlay("hide");
+    }
+</script>

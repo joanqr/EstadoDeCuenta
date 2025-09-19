@@ -1,0 +1,923 @@
+﻿@{
+    Layout = "~/Views/Shared/_Login.cshtml";
+}
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    @*<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>*@
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <style>
+        .loader {
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            background: url('Images/pageLoader.gif') 50% 50% no-repeat rgb(249,249,249);
+            opacity: .8;
+        }
+
+        .modal-header {
+            padding: 9px 15px;
+            border-bottom: 1px solid #eee;
+            background-image: linear-gradient(#007fd3,#005187 50%,#004572);
+            background-repeat: repeat-x;
+            color: #ffffff !important;
+        }
+
+            .modal-header h4 {
+                color: #ffffff !important;
+            }
+
+        .modal-body {
+            background-color: #ffffff;
+        }
+
+        .modal-footer {
+            background-color: #ffffff;
+        }
+    </style>
+    <script type="text/javascript">
+
+    </script>
+</head>
+
+<div class="container">
+
+
+    @*Login Esta es la sección del login Aquí vienen las llamadas a los modales siguientes*@
+    <div class="card card-login mx-auto text-center card-login-background">
+        <div class="card-header card-login-background-header">
+            <span> <img src="~/Content/Images/logo_grupo.png" class="w-75" alt="Logo"> </span><br />
+        </div>
+        <div class="card-body">
+
+            <font color="#FFFFFF">Se recomienda abrir con Google Chrome</font>
+            <br /><br />
+            <div class="input-group form-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fa fa-user fa-lg"></i></span>
+                </div>
+                <input type="email" name="email" class="form-control" placeholder="Usuario" id="txtUsuario">
+            </div>
+            <div class="input-group form-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fa fa-key"></i></span>
+                </div>
+                <input type="password" name="password" class="form-control" placeholder="Contraseña" id="txtPassword">
+            </div>
+            <div class="form-group">
+                <input type="submit" name="btn" value="Ingresa" class="btn btn-lg btn-primary" id="btnIngresar" /><br /><br />
+
+                <a href="#myModal" data-toggle="modal" class="text-white" data-target="#myModal">Registrar</a>
+                <br /><br />
+                <a href="#" id="triggerGuiaRegistro" style="color: #00ffff">Tutorial de Registro</a>
+                <br /><br />
+                @*<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">
+                Olvidaste Contraseña
+            </button>*@
+                <a href="#myModal2" data-toggle="modal" class="text-white" data-target="#myModal2">¿Olvidaste tu contraseña?</a>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--Modal para el olvido de la contraseña o el password-->
+    <div class="modal fade" id="myModal2">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <img src="~/Content/Images/logo_grupo.png" class="w-75" alt="Logo" /><br />
+                    <button type="button" class="close" data-dismiss="modal"><span class="text-white">&times;</span></button>
+                </div>
+
+                <div class="modal-body">
+                    <p>olvidaste contraseña</p>
+                    <div class="input-group form-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fa fa-envelope"></i></span>
+                        </div>
+                        <input type="email" name="email" class="form-control" required="true" placeholder="E-mail" id="Email">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="submit" name="Send" value="Enviar" class="btn btn-primary  btn-block" id="btnEnvioMoT" /><br /><br />
+                        <button type="button" class="btn btn-danger btn-block" data-dismiss="modal">Cancelar</button>
+
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <img src="~/Content/Images/logo_grupo.png" class="w-75" alt="Logo" /><br />
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="text-white">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body mx-3">
+                    @*<ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link show active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Empresas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+                            </li>
+                        </ul>*@
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <h2></h2>
+                            <p class="font-weight-bold">REGISTRO</p>
+                            <p></p>
+                            <form action="" class="needs-validation" id="example" name="registration">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group row">
+                                            <div class="col-md-4">
+                                                <div class="form-check">
+                                                    <label class="form-check-label" for="radio1">
+                                                        <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">Empresa
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-check">
+                                                    <label class="form-check-label" for="radio2">
+                                                        <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2" checked>Persona
+
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group row">
+                                            <div class="col-md-4">
+                                                <label for="uname">Nombre:</label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <input type="text" class="form-control" id="cNombre" name="fname" required>
+                                                <div class="valid-feedback">Valid.</div>
+                                                <div class="invalid-feedback">Please fill out this field.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group row">
+                                            <div class="col-md-4">
+                                                <label for="pwd">Apellido Paterno </label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <input type="text" class="form-control" id="cPrimerApellido" name="apPaternos">
+                                                <div class="valid-feedback">Valid.</div>
+                                                <div class="invalid-feedback">Please fill out this field.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group row">
+                                            <div class="col-md-4">
+                                                <label for="pwd">Apellido Materno </label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <input type="text" class="form-control" id="cSegundoApellido" name="apMaternos">
+                                                <div class="valid-feedback">Valid.</div>
+                                                <div class="invalid-feedback">Please fill out this field.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group row">
+                                            <div class="col-md-4">
+                                                <label for="pwd">E-mail:</label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <input type="text" class="form-control" id="cEMail" name="email" required>
+                                                <div class="valid-feedback">Valid.</div>
+                                                <div class="invalid-feedback">Please fill out this field.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group row">
+                                            <div class="col-md-4">
+                                                <label for="pwd">Celular</label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <input type="text" class="form-control" id="cTelMovil" name="cel">
+                                                <div class="valid-feedback">Valid.</div>
+                                                <div class="invalid-feedback">Please fill out this field.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+
+                                    <p class="font-weight-bold">CONTRATO</p>
+                                    <br />
+                                    <br />
+                                    <p class="font-weight-bold" id="EtiquetaPantallaTipoFinanciamiento"></p>
+                                    <div class="col-md-12">
+                                        @*<div class="form-group row">
+                                            <div class="col-md-4">
+                                                <label for="pwd">Tipo</label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <select name="thelist" id="TipoFina">
+                                                    <option value="default">--Seleccione--</option>
+                                                    <option value="2">Autofinanciamiento</option>
+                                                    <option value="1">Financiamiento</option>
+                                                </select>
+                                            </div>*@
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <p>A continuación indique el grupo-cliente o número de contrato sin guiones ni espacios.</p>
+                                    <div class="form-group row">
+                                        <div class="col-md-4">
+                                            <label for="pwd">Grupo Cliente (solo autofinanciamiento)</label>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <input type="text" class="form-control" id="GpCte" name="GpCte">
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <input type="text" class="form-control" id="GpCte2" name="GpCte2">
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group row">
+                                        <div class="col-md-4">
+                                            <label for="pwd"># Contrato (numérico hasta 9 dígitos)</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" id="idContrato" name="idContrato">
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group row">
+                                        <div class="col-md-4">
+                                            <label for="pwd">Código Postal</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" id="idCP" name="idCP" required>
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group row">
+                                        <div class="col-md-4">
+                                            <label for="pwd" id="Fecha1">Fecha de Nacim.</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class='col-sm-6'>
+                                                <input id="datepicker1" width="276" />
+                                                <script>
+                                                    $('#datepicker1').datepicker({
+                                                        uiLibrary: 'bootstrap4',
+                                                        changeMonth: true,
+                                                        changeYear: true,
+                                                        dateFormat: 'dd-mm-yy',
+                                                        language: 'es',
+                                                        firstDay: 1
+                                                    });
+                                                </script>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="col-md-12">
+                                    <div class="form-group row">
+                                        <div class="col-md-4">
+                                            <label for="pwd">Contraseña</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="password" class="form-control" id="pass" name="pass">
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group row">
+                                        <div class="col-md-4">
+                                            <label for="pwd">Confirmar Contraseña</label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input type="password" class="form-control" id="confirmPass" name="pass2">
+                                            <div class="valid-feedback">Valid.</div>
+                                            <div class="invalid-feedback">Please fill out this field.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group row form-check">
+                                        <div class="col-md-4">
+                                            <label class="form-check-label">
+                                            </label>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <input class="form-check-input" type="checkbox" name="remember" required> Estoy de acuerdo con el aviso de privacidad <a href="#" id="trigger" style="color: rgb(0,0,255)">Ver aviso</a>
+                                            <div class="valid-feedback">Valid. </div>
+                                            <div class="invalid-feedback">Check this checkbox to continue.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group row">
+                                        <div class="col-md-12">
+                                            <button type="submit" id="locker" class="btn btn-primary btn-block">Enviar</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group row">
+                                        <div class="col-md-12">
+
+                                            <button type="button" class="btn btn-danger btn-block" data-dismiss="modal">Cancelar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                        </form>
+                    </div>
+                    @*<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+                        </div>
+                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Tercera pestaña</div>*@
+                </div>
+
+
+            </div>
+            @*<div class="modal-footer d-flex justify-content-center">
+                    <button class="btn btn-unique">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
+                </div>*@
+        </div>
+    </div>
+
+</div>
+
+<div id="myId" class="d-none">
+    <div class="alert alert-danger">
+        <strong>Incorrecto!</strong> Tus credenciales son incorrectas, favor de validar
+    </div>
+</div>
+
+
+
+
+<div class="modal" id="myModalErrorContra">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                <p id="UsuarioPassIncorrecto"></p>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="myModalErrorContra2">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                Aún no se ha validado el correo y el teléfono del usuario. Por favor válida tus mensajes de texto y tu email.
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="modal" id="myModalErrorContra4">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                Se ha actualizado el usuario por favor ingresa nuevamente tus datos.
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="myModalErrorContra5">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                La página se encuentra en mantenimiento, el unico usuario que puede acceder es el administrador del sistema
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="MyModalContrato">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <div class="span text-center"><span><string>Aviso</string></span></div>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+                <p id="mensaje"></p>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" id="Change" data-dismiss="modal">Cerrar</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="modal" id="MyModalContratoExito">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <div class="span text-center"><span><string>Aviso</string></span></div>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+                <p id="mensajeExito"></p>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" id="ChangeExito" data-dismiss="modal">Cerrar</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="modal" id="MyModalValidaContratoExistente">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <div class="span text-center"><span><string>Aviso</string></span></div>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body">
+                <p id="mensajeValidaContratoExistente"></p>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" id="Change" data-dismiss="modal">Cerrar</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="modal" id="MyModalMtto">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                <p id="mensajeMtto"></p>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" id="ChangeMtto" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div id="AvisoPrivacidad" style="display:none">
+    <div>
+        <iframe src="https://edocta.conauto.mx/avisoprivacidad.pdf" width="100%" height="100%"></iframe>
+    </div>
+</div>
+
+<div id="GuiaRegistro" style="display:none">
+    <div>
+        <iframe src="https://edocta.conauto.mx/guiaregistro.pdf" width="100%" height="100%"></iframe>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+
+    //EtiquetaPantallaTipoFinanciamiento
+        $.ajax({
+            url: '@Url.Action("RecuperaEtiquetaPantallaTipoFinanciamiento", "AccountStatement")',
+            type: 'POST',
+            data: JSON.stringify({}),
+            contentType: "application/json;",
+            dataType: "json",
+            success: function (result) {
+                $("#EtiquetaPantallaTipoFinanciamiento").text(result.mensaje);
+            },
+            error: function () {
+                remoteJSONContent = null;
+                $(".alert").text("Error al seleccionar contrato");
+                $('#MensajeError').modal('show');
+            }
+        });
+
+    $("#GpCte").focusout(function () {
+        if ($("#GpCte").val().length > 0) {
+            $("#idContrato").val("");
+        }
+    });
+    $("#GpCte2").focusout(function () {
+        if ($("#GpCte2").val().length > 0) {
+            $("#idContrato").val("");
+        }
+    });
+
+    $(document).ready(function () {
+
+        $.ajax({
+            contentType: "application/json; charset=utf-8",
+            type: "POST",
+            url: "@Url.Action("ValidaEstatusMantenimiento", "Security")",
+            data: JSON.stringify({   }),
+            success: function (data) {
+
+                var ResultadoEnManyenimiento = data.split("#");
+                if (ResultadoEnManyenimiento[0] == "1") {
+                    $('#MyModalMtto').modal('show');
+                    $('#mensajeMtto').text(ResultadoEnManyenimiento[1] );
+
+                }
+            }
+        });
+    });
+
+    $("#idContrato").focusout(function () {
+
+        if ($("#idContrato").val() != "") {
+
+        $.ajax({
+                contentType: "application/json; charset=utf-8",
+                type: "POST",
+                url: "@Url.Action("ValidaSiExisteContratoPrevio", "Login")",
+            data: JSON.stringify({ Contrato: $("#idContrato").val()  }),
+            success: function (data) {
+                if (!data.result) {
+                    $('#MyModalValidaContratoExistente').modal('show');
+                    $('#mensajeValidaContratoExistente').text(data.mensaje);
+                    }
+                }
+            });
+        }
+    });
+
+    $('#trigger').click(function () {
+        $("#AvisoPrivacidad").dialog({
+            modal: false,
+            title: "Aviso de Privacidad",
+            width: 500,
+            height: 720
+        });
+        $("#AvisoPrivacidad").dialog("open");
+    });
+    $('#triggerGuiaRegistro').click(function () {
+        $("#GuiaRegistro").dialog({
+            modal: false,
+            title: "Tutorial de Registro",
+            width: 500,
+            height: 720
+        });
+        $("#GuiaRegistro").dialog("open");
+    }); triggerGuiaRegistro
+
+
+    $("#btnIngresar").on("click", function () {
+
+    if ($("#txtUsuario").val().trim() == "" || $("#txtPassword").val().trim() == "") {
+        $('#MyModalContrato').modal('show');
+        $('#mensaje').text("Llene todos los campos");
+        return;
+       }
+
+
+    var token = $('[name=__RequestVerificationToken]').val();
+    $.ajax({
+        contentType: "application/json; charset=utf-8",
+        type: "POST",
+        url: "@Url.Action("LogIn", "Login")",
+        data: JSON.stringify({  usuario: $("#txtUsuario").val(), password: $("#txtPassword").val()}),
+        success: function (d) {
+            if (d.result == 1) {
+                var returnUrl = "@Request.QueryString["ReturnUrl"]";
+
+                if (returnUrl == "") {
+                    
+                    if (d.role.trim() == "Admin") {
+                        window.location.href = "@Url.Action("Inicio","Inicio")";
+                    } else if (d.role.trim() == "AtencionClientes") {
+                        window.location.href = "@Url.Action("Index", "AtencionClientes")";
+                    }
+                    else {
+                        //ObtieneOpcionMantenimiento();
+                        window.location.href = "@Url.Action("AccountStatement","AccountStatement")";
+                    }
+                }
+                else {
+                    window.location.href = returnUrl;
+                }
+            }
+            else if (d.result == 2){
+                $('#myModalErrorContra').modal('show');
+                $('#UsuarioPassIncorrecto').text('Estatus: ' + d.result + ', ' + d.mensajeResp);
+            }
+            else if (d.result == 3){
+                $('#myModalErrorContra').modal('show');
+                $('#UsuarioPassIncorrecto').text('Estatus: ' + d.result + ', ' + d.mensajeResp);
+            }
+            else if (d.result == 4){
+
+                $('#btnIngresar').trigger('click');
+            }
+            else if (d.result == 5){
+                $('#myModalErrorContra').modal('show');
+                $('#UsuarioPassIncorrecto').text('Estatus: ' + d.result + ', ' + d.mensajeResp);
+            }
+            else if (d.result == 6){
+                $('#myModalErrorContra').modal('show');
+                $('#UsuarioPassIncorrecto').text('Estatus: ' + d.result + ', ' + d.mensajeResp);
+            }
+            else {
+                $('#myModalErrorContra').modal('show');
+                $('#UsuarioPassIncorrecto').text('Estatus: ' + d.result + ', ' + d.mensajeResp);
+            }
+
+        },
+        error: function (xhr, ajaxOptions, thrownError) {
+            alert(xhr.status);
+            alert(xhr.responseText);
+            alert(thrownError);
+        }
+
+    });
+});
+
+    $("#TipoFina").change(function () {
+        if ($(this).val() == 2) {
+            $("#idContrato").prop("disabled", true);
+            $("#idContrato").val('');
+            $("#GpCte").prop("disabled", false);
+            $("#GpCte").val('');
+            $("#GpCte2").prop("disabled", false);
+            $("#GpCte2").val('');
+        }
+        else if($(this).val() == 1) {
+            $("#GpCte").prop("disabled", true);
+            $("#GpCte").val('');
+            $("#GpCte2").prop("disabled", true);
+            $("#GpCte2").val('');
+            $("#idContrato").prop("disabled", false);
+            $("#idContrato").val('');
+
+        }
+
+    });
+
+
+    $("input[name=optradio]").change(function () {
+        if ($(this).val() == 'option2') {
+            $("#cPrimerApellido").prop("disabled", false);
+            $("#cSegundoApellido").prop("disabled", false);
+            $('#Fecha1').text('Fecha de Nacim.');
+
+        }
+        if ($(this).val() == 'option1') {
+            $("#cPrimerApellido").prop("disabled", true);
+            $("#cPrimerApellido").val('');
+            $("#cSegundoApellido").prop("disabled", true);
+            $("#cSegundoApellido").val('');
+            $('#Fecha1').text('Fecha de constitución');
+
+        }
+    });
+    $("#btnEnvioMoT").on("click", function () {
+              $.ajax({
+                    contentType: "application/json; charset=utf-8",
+                    type: "POST",
+                  url: "@Url.Action("OlvidoContrasena", "Login")",
+                  beforeSend: function () {
+                      $('#loading').show();
+                  },
+            data: JSON.stringify({ email: $("#Email").val()}),
+                    success: function (data) {
+                        $('#MyModalContrato').modal('show');
+                        $('#mensaje').text(data);
+                    }
+                });
+    });
+
+
+    jQuery.extend(jQuery.validator.messages, {
+        required: "Este campo es obligatorio.",
+        remote: "Por favor, rellena este campo.",
+        email: "Por favor, escribe una dirección de correo válida",
+        url: "Por favor, escribe una URL válida.",
+        date: "Por favor, escribe una fecha válida.",
+        dateISO: "Por favor, escribe una fecha (ISO) válida.",
+        number: "Por favor, escribe un número entero válido.",
+        digits: "Por favor, escribe sólo dígitos.",
+        creditcard: "Por favor, escribe un número de tarjeta válido.",
+        equalTo: "Las contraseñas no coinciden.",
+        accept: "Por favor, escribe un valor con una extensión aceptada.",
+        maxlength: jQuery.validator.format("Por favor, no escribas más de {0} caracteres."),
+        minlength: jQuery.validator.format("Por favor, no escribas menos de {0} caracteres."),
+        rangelength: jQuery.validator.format("Por favor, escribe un valor entre {0} y {1} caracteres."),
+        range: jQuery.validator.format("Por favor, escribe un valor entre {0} y {1}."),
+        max: jQuery.validator.format("Por favor, escribe un valor menor o igual a {0}."),
+        min: jQuery.validator.format("Por favor, escribe un valor mayor o igual a {0}.")
+    });
+
+
+
+
+    $("#locker").on("click", function () {
+
+
+            var str = $('#pass').val()
+
+            if (!str.match(/^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])([a-zA-Z0-9]{8,12})$/)) {
+                alert("La contraseña debe de contener al menos un carácter en mayúsculas, uno en minúsculas, un número y debe de medir por lo menos 8 caracteres y máximo 12.");
+                return false;
+            }
+
+        if ($('#GpCte').val() == "" && $('#GpCte2').val() == "" && $('#idContrato').val() == "") {
+            $('#MyModalContrato').modal('show');
+            $('#mensaje').text('Para el registro se debe agregar al menos un Grupo - Cliente o un número de Contrato');
+            return false;
+        }
+
+        $("#example").validate({
+            rules: {
+                fname: {
+                    minlength: 3,
+                    maxlength: 23,
+                    required: true,
+                },
+                apPaternos: {
+                    minlength: 3,
+                    maxlength: 23,
+                    required: true,
+                },
+                TipoFina: {
+                    thelist: { valueNotEquals: "default" }
+                },
+                email: {
+                    email: true,
+                    required: true
+                },
+                cel: {
+                    minlength: 10,
+                    required: true,
+                    number: true
+
+                },
+                idCP: {
+                    number: true
+                },
+                pass: {
+                    required:true,
+                    minlength: 6
+                },
+                pass2: {
+                    required:true,
+                    equalTo: "#pass"
+                }
+
+            },
+            messages: {
+                SelectName: { valueNotEquals: "Selecciona una opción por favor." }
+            },
+            submitHandler: function () {
+                var fecha = $('#datepicker1').val();
+                var fechaToken = fecha.split("/");
+                var FechaFinalFormateada = fechaToken[1] + "/" + fechaToken[0] + "/" + fechaToken[2];
+                var Usuario = JSON.stringify({
+                    cNombre: $('#cNombre').val(),
+                    cPrimerApellido: $('#cPrimerApellido').val(),
+                    cSegundoApellido: $('#cSegundoApellido').val(),
+                    cEMail: $('#cEMail').val(),
+                    cTelMovil: $('#cTelMovil').val(),
+                    TipoFina: $('#TipoFina').val(),
+                    gpoCte1: $('#GpCte').val(),
+                    gpoCte2: $('#GpCte2').val(),
+                    iContrato: $('#idContrato').val(),
+                    CP: $('#idCP').val(),
+                    DateCte: FechaFinalFormateada,
+                    cPasswd: $('#pass').val(),
+                    GpoCteString: $('#GpCte2').val(),
+                });
+                $.ajax({
+                    contentType: "application/json; charset=utf-8",
+                    type: "POST",
+                    url: "@Url.Action("AgregarUsuario", "Login")",
+                    data: Usuario,
+                    success: function (data) {
+                        //$("#example")[0].reset();
+                        if (data.indexOf("por registrarse. Recibirá")>5) {
+                            $('#MyModalContratoExito').modal('show');
+                            $('#mensajeExito').text(data);
+                        }
+                        else {
+                            $('#MyModalContrato').modal('show');
+                            $('#mensaje').text(data);
+                        }
+                    }
+                });
+            }
+        });
+    });
+         $("#ChangeExito").on("click", function () {
+                window.location.href = "@Url.Action("Index","Login")";
+
+         });
+
+    function ObtieneOpcionMantenimiento() {
+        $.ajax({
+            type: "POST",
+            url: '@Url.Action("ActivaMatenimiento", "Login")',
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (response) {
+                $.holdReady(false);
+                $.LoadingOverlay("hide");
+            },
+            failure: function (response) {
+                $(".alert").text("Error al activar o desactivar");
+                $('#MensajeError').modal('show');
+                $.holdReady(false);
+                $.LoadingOverlay("hide");
+            }
+            });
+    }
+</script>
